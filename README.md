@@ -1,10 +1,10 @@
 # Little Planet
 ## Team Member
-Hao Yang (nt20519@bristol.ac.uk)
-Ning Wang (eo20321@bristol.ac.uk)
-Xiaozhou Song (jo20040@bristol.ac.uk)
-Yingjie Ma (tc20761@bristol.ac.uk)
-Yiwen Wang (li20712@bristol.ac.uk)
+- Hao Yang (nt20519@bristol.ac.uk)
+- Ning Wang (eo20321@bristol.ac.uk)
+- Xiaozhou Song (jo20040@bristol.ac.uk)
+- Yingjie Ma (tc20761@bristol.ac.uk)
+- Yiwen Wang (li20712@bristol.ac.uk)
 
 
 Name / photo / role for each team member.
