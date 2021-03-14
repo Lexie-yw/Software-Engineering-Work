@@ -1,5 +1,7 @@
 # Little Planet
-## Team Member
+Little Planet is a habbit forming app, helping you track your progress and visualize your achievement through a collecting card game (CCG). 
+Time to develop your perseverance and build your own planet!
+## Team Member (Group19)
 - Hao Yang (nt20519@bristol.ac.uk)
 - Ning Wang (eo20321@bristol.ac.uk)
 - Xiaozhou Song (jo20040@bristol.ac.uk)
