@@ -4,11 +4,11 @@
 
             <div id="nav">
                 <p>
-                    <a href = "../home/home.component.html" class = "navButton">Home</a>
-                    <a href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
-                    <a href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
-                    <a href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
-                    <a href = "../registration/registration.component.html" class = "navButton">Login</a>
+                    <a  [routerLink]="['/home']" routerLinkActive="active" href = "../home/home.component.html" class = "navButton">Home</a>
+                    <a  [routerLink]="['/goal-setting']" routerLinkActive="active" href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
+                    <a  [routerLink]="['/tracker']" routerLinkActive="active" href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
+                    <a  [routerLink]="['/rewards']" routerLinkActive="active" href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
+                    <a  [routerLink]="['/registration']" routerLinkActive="active" href = "../registration/registration.component.html" class = "navButton">Login</a>
                     
                 </p>
             </div>
