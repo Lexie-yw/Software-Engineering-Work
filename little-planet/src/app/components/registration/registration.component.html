@@ -1,0 +1,78 @@
+<div id="container"> 
+    <div id = "header">
+        <div id="logo"><h1>Little Planet</h1></div>
+            <div id="nav">
+                <p>
+                    <a href = "../home/home.component.html" class = "navButton">Home</a>
+                    <a href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
+                    <a href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
+                    <a href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
+                    <a href = "../registration/registration.component.html" class = "navButton">Login</a>
+        
+                </p>
+            </div>
+    </div>
+    
+    <div id = "site_content">
+        <h2>Welcom Back</h2>
+        <h2>Be a Member</h2>
+        <h2>Email: <input type = "text"></h2>
+        <h2>Password: <input type = "text"></h2>
+
+        <div id = "decision">
+            <button (click) = "run()" class = "otherButton">Login</button>
+            <button (click) = "run()" class = "otherButton">Create a New Account</button>
+            <button (click) = "run()" class = "otherButton">Find My Password</button>
+        </div>
+        
+    </div>
+</div>
+
+<!-- <h1>{{ rTitle }}</h1>
+
+<div class = "people_list">
+    <ul>
+
+    </ul>
+</div> -->
+
+<!-- 
+    <h3>Email Address</h3>
+<div>
+    <Strong>{{passWd}} <br> {{email}}</Strong>
+    <br>
+    <button (click) = "getData()" >Email Address</button>
+    <br>
+    keyDown
+    <input type = "text" (keydown) = "keyDown($event)"/>
+    <br>
+    keyUp
+    <input type = "text" (keyup) = "keyUp($event)"/>
+    <br>
+    <button (click) = "getData()">Passward</button>
+    <br>
+    <button (click) = "run()">Login</button>
+    <br>
+    <button (click) = "setData()">Create a New Account</button>
+    <br>
+    <button (click) = "runEvent($event)">Run a Method to gain event</button>
+    <br>
+    <button >Forget My Passward</button>
+
+</div> 
+-->
+
+<!-- 
+    <div>
+    <h3>双向数据绑定--MVVM 只是针对表单</h3>
+    如果要使用双向数据绑定，需要引入module
+    <input type = "text" [(ngModel)] = 'keywords' />
+    {{keywords}}
+
+    <button (click) = "changeKeywords()"> change the value of keywords</button>
+    <button (click) = "getKeywords()"> get the value of keywords</button>
+
+
+    </div>
+ -->
+

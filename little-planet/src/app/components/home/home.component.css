@@ -1,0 +1,28 @@
+img {
+    max-width: 600px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+
+}
+   
+#container {
+    margin: 0 auto;    /* This centers the page in modern browsers */
+    text-align: left;  /* This is a hack for older browsers to center the page */
+    width: 960px;      /* This sets our total page width */
+}
+   
+#header {
+    width: 960px;      /* This sets the header to stretch the full page width */
+}
+
+#site_content{
+    text-align: center;
+}
+
+
+
+   
+
+   

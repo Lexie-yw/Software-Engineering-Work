@@ -1,0 +1,60 @@
+<div id="container"> 
+    <div id = "header">
+        <div id="logo"><h1>Little Planet</h1></div>
+            <div id="nav">
+                <p>
+                    <a href = "../home/home.component.html" class = "navButton">Home</a>
+                    <a href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
+                    <a href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
+                    <a href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
+                    <a href = "../registration/registration.component.html" class = "navButton">Login</a>
+                    
+                    
+                </p>
+            </div>
+    </div>
+    
+    <div id = "site_content">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <div *ngIf = "flag">
+                    <img src="assets/images/susan-q-yin-London-unsplash.jpg" alt="London" class="gallery__img">
+                    <!-- <img [src] = "picUrl"/> -->
+                </div>
+                <div *ngIf = "!flag" class = "purple">
+                    <p>Expore London</p>
+                </div>
+            </figure>
+
+            <figure class="gallery__item gallery__item--2">
+                <div *ngIf = "flag">
+                    <img src="assets/images/susan-q-yin-London-unsplash.jpg" alt="London" class="gallery__img">
+                    <!-- <img [src] = "picUrl"/> -->
+                </div>
+                <div *ngIf = "!flag" class = "purple">
+                    <p>Expore London</p>
+                </div>
+            </figure>
+        </div>
+        
+    </div>
+</div>
+
+<!-- <h1>Your Rewards </h1> -->
+<!-- *ngIf -->
+
+<!-- *ngSwitch -->
+<!-- <span [ngSwitch] = "picStatus">
+    <p *ngSwitchCase = "1">
+        goal created.
+    </p>
+    <p *ngSwitchCase = "2">
+        goal finished.
+    </p>
+    <p *ngSwitchCase = "3">
+        goal suspended.
+    </p>
+
+
+
+</span> -->
