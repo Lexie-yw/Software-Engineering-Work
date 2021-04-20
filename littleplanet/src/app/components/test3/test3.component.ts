@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ActivatedRoute } from '@angular/router';
+
 @Component({
   selector: 'app-test3',
   templateUrl: './test3.component.html',
@@ -9,10 +11,14 @@ export class Test3Component implements OnInit {
 
 
 
-  constructor() { }
+  constructor(public route:ActivatedRoute) { }
 
   ngOnInit(): void {
-    
+
+    this.route.params.subscribe((data)=>{
+      console.log(data);
+
+    })
   }
 
 }

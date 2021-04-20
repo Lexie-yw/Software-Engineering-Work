@@ -1,10 +1,16 @@
 <p>test1 works!</p>
 
 
-<a [routerLink]="['/test3']" routerLinkActive="active">test3</a>
+<a [routerLink]="['/test2/','12345']">'jump to test2'</a>
+
+<br>
+<br>
+
+<button (click)="gotest3()">js to test3</button>
+
 
 <ul>
   <li *ngFor= "let item of list; let key = index;">
-    <a href="#">{{key}}--{{item}}</a>
+    <a [routerLink]="['/test3/',key]">{{key}}--{{item}}</a>
   </li>
 </ul>

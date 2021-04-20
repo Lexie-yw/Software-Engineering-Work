@@ -9,8 +9,8 @@ import { TestHomeComponent } from './components/components/test-home/test-home.c
 const routes: Routes = [
   {path:'home',component:TestHomeComponent},
   {path:'test1',component:Test1Component},
-  {path:'test2',component:Test2Component},
-  {path:'test3',component:Test3Component},
+  {path:'test2/:pid',component:Test2Component},
+  {path:'test3/:aid',component:Test3Component},
   {path:'**',redirectTo:'home'}
 ];
 
