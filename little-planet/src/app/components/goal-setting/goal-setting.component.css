@@ -16,4 +16,30 @@ h1, h2, h3 {
 #header {
     width: 960px;      /* This sets the header to stretch the full page width */
 }
+
+#goal_info {
+   text-align: center;
+}
    
+
+input[type=text], textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+label {
+    padding: 5px;
+    display: flexbox;
+    align-self:flex-start;
+    font-size:large;
+    font-weight: bold;
+}
+
+.row {
+    padding: 5px;
+}
+
+

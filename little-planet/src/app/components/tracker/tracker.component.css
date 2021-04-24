@@ -25,4 +25,39 @@ body {
     float: right;      /* This causes the content to move to the right */
     width: 700px;      /* We need to set the width whenever we float an element */
 }
-   
+
+#goal_list, #goal_list a {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: black;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+}
+
+#goal_list a:hover {
+    color: silver;
+}
+
+.goal-list-item {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    width: 20%;
+    -webkit-border-radius: padding-box;
+}
+
+.is-complete{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+.is-active {
+    border-color: silver;
+    border-width: 2px;
+    text-shadow: 2px;
+}
