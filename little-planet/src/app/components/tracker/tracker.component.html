@@ -1,4 +1,4 @@
-<div id="container"> 
+<div id="container">
     <div id = "header">
         <div id="logo"><h1>Little Planet</h1></div>
             <div id="nav">
@@ -8,26 +8,34 @@
                     <a  [routerLink]="['/tracker']" routerLinkActive="active" href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
                     <a  [routerLink]="['/rewards']" routerLinkActive="active" href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
                     <a  [routerLink]="['/registration']" routerLinkActive="active" href = "../registration/registration.component.html" class = "navButton">Login</a>
-                    
+
                 </p>
             </div>
     </div>
-    
+
     <div id = "site_content">
         <h2>Form Your Habbit to Build Your Planet</h2>
-        <div id = "goal_list"> 
+        <div id = "goal_list">
             <!-- <a class="goal-list-item is-active">Goal #1</a> -->
             <a class="goal-list-item">Goal #1</a>
             <a class="goal-list-item">Goal #1</a>
             <a class="goal-list-item">Goal #1</a>
-<!--             
+
+            <ul>
+              <li *ngFor= "let item of goal_list">
+                <a>{{item.goal_num}}--{{item.goal_name}}</a>
+              </li>
+            </ul>
+<!--
             <h3> <button class = "otherButton">Goal1 temporary text</button></h3>
             <h3> <button class = "otherButton">Goal1 temporary text</button></h3>
             <h3> <button class = "otherButton">Goal1 temporary text</button></h3>
              -->
         </div>
-       
+
     </div>
+
+
 </div>
 
 <!-- <p>{{title}}</p> -->
