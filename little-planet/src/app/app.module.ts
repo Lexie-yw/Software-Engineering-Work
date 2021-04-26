@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,8 @@ import { TrackerComponent } from './components/tracker/tracker.component';
 import { GoalSettingComponent } from './components/goal-setting/goal-setting.component';
 import { RewardsComponent } from './components/rewards/rewards.component';
 
+import { CommonService } from './services/common.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,14 +21,16 @@ import { RewardsComponent } from './components/rewards/rewards.component';
     TrackerComponent,
     GoalSettingComponent,
     RewardsComponent,
-    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    HttpClientJsonpModule
   ],
-  providers: [],
+  providers: [CommonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

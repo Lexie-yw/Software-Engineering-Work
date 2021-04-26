@@ -24,6 +24,7 @@ export class GoalSettingComponent implements OnInit {
 
   ngOnInit(): void {
     this.goal.goal_name='12345';
+
   }
 
   refresh(){

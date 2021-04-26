@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonService } from '../../services/common.service';
+
 
 @Component({
   selector: 'app-tracker',
@@ -8,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class TrackerComponent implements OnInit {
 
   public title = "this is a progress tracker";
+
+  public list:any[]=[];
 
   public goal_list:any[]=[
     {
@@ -24,9 +28,15 @@ export class TrackerComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(public common:CommonService) { }
 
   ngOnInit(): void {
+    var api = 'api/goal1';
+    this.common.get(api).then((response:any)=>{
+      console.log(response);
+      this.list=response.result;
+
+    })
   }
 
 }
