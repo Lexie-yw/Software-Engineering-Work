@@ -5,8 +5,9 @@
     /* background: rgb(117, 117, 177); */
 }
 
-ul,ol {
+ul,ol,li {
     list-style-type: none;
+
 }
 
 body {

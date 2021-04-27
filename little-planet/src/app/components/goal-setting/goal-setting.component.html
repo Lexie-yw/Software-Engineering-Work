@@ -19,18 +19,21 @@
         <form id = "goal_info">
             <div class="row">
               <label for="gname">Goal: </label>
+              <!-- <input type="text" id="gname" name="goalName" placeholder="Your goal.."> -->
               <input type="text" id="gname" name="goalName" [(ngModel)]='goal.goal_name' placeholder="Your goal..">
               {{goal.goal_name}}
             </div>
 
             <div class="row">
                 <label for="dtime">Duration: </label>
+                <!-- <input type="text" id="dtime" name="durationTime" placeholder="How many days.."> -->
                 <input type="text" id="dtime" name="durationTime" [(ngModel)]='goal.clicks_num_needed' placeholder="How many days..">
                 {{goal.clicks_num_needed}}
             </div>
 
             <div class="row">
                 <label for="details">Details: </label>
+                <!-- <textarea id="details" name="details" placeholder="Write something.." style="height:200px"></textarea> -->
                 <textarea id="details" name="details" [(ngModel)]='goal.description' placeholder="Write something.." style="height:200px"></textarea>
                 {{goal.description}}
             </div>

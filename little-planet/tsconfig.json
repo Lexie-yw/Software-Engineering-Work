@@ -12,6 +12,7 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "allowJs": true,
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
@@ -27,4 +28,7 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   }
+ 
 }
+
+

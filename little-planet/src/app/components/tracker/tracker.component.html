@@ -17,15 +17,14 @@
         <h2>Form Your Habbit to Build Your Planet</h2>
         <div id = "goal_list">
             <!-- <a class="goal-list-item is-active">Goal #1</a> -->
-            <a class="goal-list-item">Goal #1</a>
-            <a class="goal-list-item">Goal #1</a>
-            <a class="goal-list-item">Goal #1</a>
-
+            <!-- <a class="goal-list-item">Goal #1</a>
+            <a class="goal-list-item">Goal -- #12</a>
+            <a class="goal-list-item">Goal #1</a> -->
             <ul>
               <li *ngFor= "let item of goal_list">
-                <a>{{item.goal_num}}--{{item.goal_name}}</a>
+                <a class="goal-list-item" >{{item.goal_num}}--{{item.goal_name}}</a>
               </li>
-            </ul>
+            </ul>  
 <!--
             <h3> <button class = "otherButton">Goal1 temporary text</button></h3>
             <h3> <button class = "otherButton">Goal1 temporary text</button></h3>
