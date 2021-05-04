@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationComponent implements OnInit {
   public rTitle: string = "Welcome to Little Planet";
-  public userInfo: any; 
+  public userInfo: any;
   public passWd: any = "This is your passward.";
   public email: any = "This is your email";
   public keywords: string = " This is the default value";
@@ -20,8 +20,16 @@ export class RegistrationComponent implements OnInit {
 
   }
 
-  run() {
+  login() {
     alert('You choose to login');
+  }
+
+  create_account() {
+    alert('A new account has been created');
+  }
+
+  find_password() {
+    alert('password has been sent to your email');
   }
 
   getData() {
@@ -37,7 +45,7 @@ export class RegistrationComponent implements OnInit {
   runEvent(event:any) {
     let dom:any = event.target;
 
-    dom.style.color = "purple"; 
+    dom.style.color = "purple";
 
   }
 
@@ -48,7 +56,7 @@ export class RegistrationComponent implements OnInit {
       // 获取当前对象及值
       console.log(e.target.value);
     }
-    
+
   }
 
   keyUp(e:any) {

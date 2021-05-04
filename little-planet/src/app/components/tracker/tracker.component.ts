@@ -15,16 +15,16 @@ export class TrackerComponent implements OnInit {
 
   public goal_list:any[]=[
     {
-      goal_num:0,
-      goal_name:'name 0',
-    },
-    {
       goal_num:1,
-      goal_name:'name 1',
+      goal_name:'brush teeth',
     },
     {
       goal_num:2,
-      goal_name:'name 2',
+      goal_name:'jogging',
+    },
+    {
+      goal_num:3,
+      goal_name:'recite words',
     }
   ];
 

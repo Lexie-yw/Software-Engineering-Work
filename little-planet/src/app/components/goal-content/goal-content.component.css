@@ -1,0 +1,45 @@
+img {
+  max-width: 600px;
+
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+#container {
+  margin: 0 auto;    /* This centers the page in modern browsers */
+  text-align: left;  /* This is a hack for older browsers to center the page */
+  width: 960px;      /* This sets our total page width */
+}
+
+#header {
+  width: 960px;      /* This sets the header to stretch the full page width */
+}
+
+#goal_info {
+  text-align: center;
+}
+
+
+input[type=text], textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+label {
+  padding: 5px;
+  display: flexbox;
+  align-self:flex-start;
+  font-size:large;
+  font-weight: bold;
+}
+
+.row {
+  padding: 5px;
+}
+
+

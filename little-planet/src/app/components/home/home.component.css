@@ -1,29 +1,62 @@
 img {
-    max-width: 600px;
+    max-width: 550px;
 }
 
 h1, h2, h3 {
     text-align: center;
-
 }
-   
+
+.animate {
+  font-size: 40px;
+  margin: 10px 0 0;
+}
+
+.animate span {
+  display: inline-block;
+}
+
+.box span {
+  color: red;
+  opacity: 0;
+  transform: translate(-150px, 0) scale(.5);
+  animation: leftRight 1s forwards;
+}
+
+@keyframes leftRight {
+  40% {
+    transform: translate(30px, 0) scale(.7);
+    opacity: 1;
+    color: #000;
+  }
+  60% {
+    color: #fff;
+  }
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
+}
+
 #container {
     margin: 0 auto;    /* This centers the page in modern browsers */
     text-align: left;  /* This is a hack for older browsers to center the page */
     width: 960px;      /* This sets our total page width */
 }
-   
+
 #header {
     width: 960px;      /* This sets the header to stretch the full page width */
 }
 
 #site_content{
-    
+
     text-align: center;
 }
 
 
 
-   
 
-   
+

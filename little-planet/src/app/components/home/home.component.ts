@@ -22,7 +22,10 @@ export class HomeComponent implements OnInit {
       "title": "this is item3"
 
     }
-  ]
+  ];
+
+  public goals_achieved:any = 6;
+
   constructor() { }
 
   ngOnInit(): void {
