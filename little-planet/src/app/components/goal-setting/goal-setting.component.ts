@@ -23,13 +23,17 @@ export class GoalSettingComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.goal.goal_name='.';
+
   }
 
   refresh(){
     this.goal.goal_name=null;
     this.goal.clicks_num_needed=null;
     this.goal.description=null;
+  }
+
+  confirm() {
+    alert('goal submitted');
   }
 
   // doSubmit() {

@@ -1,18 +1,26 @@
-<div id="container"> 
+<div id="container" xmlns="http://www.w3.org/1999/html">
     <div id = "header">
         <div id="logo"><h1>Little Planet</h1></div>
+          <br>
+          <br>
             <div id="nav">
                 <p>
                     <a  [routerLink]="['/home']" routerLinkActive="active" href = "../home/home.component.html" class = "navButton">Home</a>
                     <a  [routerLink]="['/goal-setting']" routerLinkActive="active" href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
                     <a  [routerLink]="['/tracker']" routerLinkActive="active" href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
+                    <a  [routerLink]="['/goal-content']" routerLinkActive="active" href = "../goal-content/goal-content.component.html" class = "navButton">Goals Content</a>
                     <a  [routerLink]="['/rewards']" routerLinkActive="active" href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
                     <a  [routerLink]="['/registration']" routerLinkActive="active" href = "../registration/registration.component.html" class = "navButton">Login</a>
-                    
+
                 </p>
             </div>
     </div>
-    
+
+  <br>
+  <br>
+  <br>
+  <br>
+
     <div id = "site_content">
         <div class="gallery">
             <figure class="gallery__item gallery__item--1">
@@ -27,15 +35,55 @@
 
             <figure class="gallery__item gallery__item--2">
                 <div *ngIf = "flag">
-                    <img src="assets/images/susan-q-yin-London-unsplash.jpg" alt="London" class="gallery__img">
+                    <img src="assets/Countries/America_north/Canada/pic.png" alt="Canada" class="gallery__img">
                     <!-- <img [src] = "picUrl"/> -->
                 </div>
                 <div *ngIf = "!flag" class = "purple">
-                    <p>Expore London</p>
+                    <p>Expore Canada</p>
                 </div>
             </figure>
-        </div>
-        
+
+            <figure class="gallery__item gallery__item--3">
+              <div *ngIf = "flag">
+                <img src="assets/Countries/America_south/Brazil/pic.png" alt="Brazil" class="gallery__img">
+                <!-- <img [src] = "picUrl"/> -->
+              </div>
+              <div *ngIf = "!flag" class = "purple">
+                <p>Expore Brazil</p>
+              </div>
+            </figure>
+
+            <figure class="gallery__item gallery__item--4">
+              <div *ngIf = "flag">
+                <img src="assets/Countries/Asia/China/pic.png" alt="China" class="gallery__img">
+                <!-- <img [src] = "picUrl"/> -->
+              </div>
+              <div *ngIf = "!flag" class = "purple">
+               <p>Expore China</p>
+              </div>
+            </figure>
+
+            <figure class="gallery__item gallery__item--5">
+              <div *ngIf = "flag">
+                <img src="assets/Countries/Asia/Japan/pic.png" alt="Japan" class="gallery__img">
+                <!-- <img [src] = "picUrl"/> -->
+              </div>
+              <div *ngIf = "!flag" class = "purple">
+                <p>Expore Japan</p>
+              </div>
+            </figure>
+
+            <figure class="gallery__item gallery__item--6">
+              <div *ngIf = "flag">
+                <img src="assets/Countries/Asia/India/pic.png" alt="India" class="gallery__img">
+                <!-- <img [src] = "picUrl"/> -->
+              </div>
+              <div *ngIf = "!flag" class = "purple">
+                <p>Expore India</p>
+              </div>
+            </figure>
+          </div>
+
     </div>
 </div>
 

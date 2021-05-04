@@ -1,0 +1,56 @@
+<div id="container">
+  <div id = "header">
+    <div id="logo"><h1>Little Planet</h1></div>
+
+    <br>
+    <br>
+
+    <div id="nav">
+      <p>
+        <a  [routerLink]="['/home']" routerLinkActive="active" href = "../home/home.component.html" class = "navButton">Home</a>
+        <a  [routerLink]="['/goal-setting']" routerLinkActive="active" href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
+        <a  [routerLink]="['/tracker']" routerLinkActive="active" href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
+        <a  [routerLink]="['/goal-content']" routerLinkActive="active" href = "../goal-content/goal-content.component.html" class = "navButton">Goals Content</a>
+        <a  [routerLink]="['/rewards']" routerLinkActive="active" href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
+        <a  [routerLink]="['/registration']" routerLinkActive="active" href = "../registration/registration.component.html" class = "navButton">Login</a>
+
+      </p>
+    </div>
+  </div>
+
+  <div id = "site_content">
+
+    <br>
+
+    <form id = "goal_info">
+      <div class="row">
+        <label for="gname">Goal: </label>
+        <!-- <input type="text" id="gname" name="goalName" placeholder="Your goal.."> -->
+        <input type="text" id="gname" name="goalName" >
+        <!-- {{goal.goal_name}} -->
+      </div>
+
+      <div class="row">
+        <label for="dtime">Duration: </label>
+        <!-- <input type="text" id="dtime" name="durationTime" placeholder="How many days.."> -->
+        <input type="text" id="dtime" name="durationTime" >
+        <!-- {{goal.clicks_num_needed}} -->
+      </div>
+
+      <div class="row">
+        <label for="details">Details: </label>
+        <!-- <textarea id="details" name="details" placeholder="Write something.." style="height:200px"></textarea> -->
+        <textarea id="details" name="details"  style="height:200px"></textarea>
+        <!-- {{goal.description}} -->
+      </div>
+
+      <div class="row">
+        <div id = "decision">
+
+        </div>
+        <!-- <input type="cancel" value="Cancel">
+        <input type="submit" value="Submit"> -->
+      </div>
+    </form>
+  </div>
+</div>
