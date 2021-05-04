@@ -10,7 +10,6 @@
                     <a  [routerLink]="['/home']" routerLinkActive="active" href = "../home/home.component.html" class = "navButton">Home</a>
                     <a  [routerLink]="['/goal-setting']" routerLinkActive="active" href = "../goal-setting/goal-setting.component.html" class = "navButton">Goals</a>
                     <a  [routerLink]="['/tracker']" routerLinkActive="active" href = "../tracker/tracker.component.html" class = "navButton">Progress Tracker</a>
-                    <a  [routerLink]="['/goal-content']" routerLinkActive="active" href = "../goal-content/goal-content.component.html" class = "navButton">Goals Content</a>
                     <a  [routerLink]="['/rewards']" routerLinkActive="active" href = "../rewards/rewards.component.html" class = "navButton">Rewards Library</a>
                     <a  [routerLink]="['/registration']" routerLinkActive="active" href = "../registration/registration.component.html" class = "navButton">Login</a>
 
@@ -27,7 +26,7 @@
             <a class="goal-list-item">Goal #1</a> -->
             <ul>
               <li *ngFor= "let item of goal_list">
-                <a class="goal-list-item" >{{item.goal_num}}--{{item.goal_name}}</a>
+                <a class="goal-list-item" [routerLink]="['/goal-content/',item.goal_num ]" >{{item.goal_num}}--{{item.goal_name}}</a>
               </li>
             </ul>
 <!--

@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:'registration',component:RegistrationComponent},
   {path:'rewards',component:RewardsComponent},
   {path:'tracker',component:TrackerComponent},
-  {path:'goal-content',component:GoalContentComponent},
+  {path:'goal-content/:aid',component:GoalContentComponent},
   {path:'**',redirectTo:'home'}
 ];
 
