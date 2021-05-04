@@ -40,10 +40,10 @@ Team use of Git, how your team used continuous integration / continuous deployme
 Little Planet application is a habit forming application, aims at helping people to form a habit or achieve goals they set.
 
 The UX designing of Little Planet can be splitted into four stages:
-**Initial Sketching
-Moodboard Making
-Mockup Designing 
-Final Revisions**
+* Initial Sketching
+* Moodboard Making
+* Mockup Designing 
+* Final Revisions
 
 Initial Sketching
 
