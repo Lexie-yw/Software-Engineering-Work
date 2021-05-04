@@ -26,40 +26,19 @@ Front End - Angular. Details of implementation.
 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 ## UX Design [15 marks]
-Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
-Identification of interacting users and broader stakeholders.
-UX approach – design heuristics/approach, design methods (design fiction / heuristics)
-Understanding of user group (questionnaires / user stories / interviews)
-Wireframes and interaction flow diagrams for final key subsystems.
+Little Planet application is a habit forming application, aims at helping people to form a habit or achieve goals they set.
+
+The UX designing of Little Planet can be splitted into four stages:
+* Initial Sketching 
+* Moodboard Making
+* Mockup Designing 
+* Final Revisions
+
 ## Sprints & Project Management [15 marks]
 Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?)
 Discussion of team roles (specialisation is ok!). A summary of individual contributions (note: this is for reference, your team will all receive the same grade!).
 Documentation of your sprints, including both high level overview, timeline, and selected highlights that were critical points in the project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies for absence etc)
 Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
-
-Little Planet application is a habit forming application, aims at helping people to form a habit or achieve goals they set.
-
-The UX designing of Little Planet can be splitted into four stages:
-* Initial Sketching
-* Moodboard Making
-* Mockup Designing 
-* Final Revisions
-
-Initial Sketching
-
-Persona Sketch (Through user research and questionnaire)
-Attributes (Pursuing personal progress)
-Values (Easiness of use, visualization of progress, playfulness of application, cross-platform accessibility)
-Goals (Achieving goals set / Successfully forming habits)
-Concerns (Privacy & Security)
-
-Application Feature Identification
-Simple design with functionality needed
-
-
-Wireframe (Figma / PowerPoint)
-Insert Link / Picture here
-
 ## Evaluation [15 marks]
 Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design.
 Unit testing / Functional testing.
