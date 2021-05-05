@@ -25,12 +25,14 @@ Middle Tier - Express, Node, the RESTful API
 Front End - Angular. Details of implementation.
 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
-## UX Design [15 marks]
+## [UX Design] (https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/UX%20Design/UX%20Design%20Report)
 This section comprises of the following segments:
 
-* Design Process - ideation, early prototyping and final revisions on wireframes and interaction flow diagrams
+* Design Process 
+* Ideation and Early prototyping 
 * Identification and Undestanding of Users and Stakeholders
 * UX Approach - design methods
+* Final revisions - wireframes and interaction flow diagrams for final key subsystems
 
 ## Sprints & Project Management [15 marks]
 Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?)
