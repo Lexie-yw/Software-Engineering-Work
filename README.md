@@ -25,7 +25,7 @@ Middle Tier - Express, Node, the RESTful API
 Front End - Angular. Details of implementation.
 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
-## UX Design [UX Design](Report Materials/UX Design/UX.md)
+## [UX Design](Report Materials/UX Design/UX.md)
 This section comprises of the following segments:
 
 * Design Process 
