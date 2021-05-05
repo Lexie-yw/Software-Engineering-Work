@@ -26,13 +26,11 @@ Front End - Angular. Details of implementation.
 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 ## UX Design [15 marks]
-Little Planet application is a habit forming application, aims at helping people to form a habit or achieve goals they set.
+This section comprises of the following segments:
 
-The UX designing of Little Planet can be splitted into four stages:
-* Initial Sketching 
-* Moodboard Making
-* Mockup Designing 
-* Final Revisions
+* Design Process - ideation, early prototyping and final revisions on wireframes and interaction flow diagrams
+* Identification and Undestanding of Users and Stakeholders
+* UX Approach - design methods
 
 ## Sprints & Project Management [15 marks]
 Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?)
