@@ -1,10 +1,10 @@
 # UX Design
 
 ## Table of Contents
-* Ideation
-* Early Prototyping
-  * Person Sketch
-* 
+* [**Ideation**](#ideation)
+* [**Early Prototyping**](#early-prototyping)
+  * [**Persona Sketch**](#persona-sketch)
+
 
 ## Ideation
 The team started the project with brainstorming ideas for a novel web application that can solve a real world problem while making users enjoy using it. To create such a product, we first started our discussion through teams on what problems we might solve and what game mechanisms we can adopt to solve the problems. Below is a Jamboard (Figure 1) we created during designing thinking:
