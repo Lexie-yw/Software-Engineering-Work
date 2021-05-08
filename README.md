@@ -21,6 +21,16 @@ Clear definition of the problem. How does your project relate to the above? We w
 ## System Implementation [20 marks]:
 Stack architecture and system design (e.g. class diagrams, sequence diagrams).
 Back End - MongoDB - database implementation, the data model that you developed your back end from (e.g. entity relationship diagrams).
+In this project, we used the front and back end separation method. The front-end uses Angular to render and display the page. The more popular Spring Boot is used to implement back-end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.
+For data storage, we chose the relatively popular MongoDB, which has good support for files and json type data.
+![image](https://user-images.githubusercontent.com/73413798/117540259-ecaba700-b040-11eb-98d4-dde91955cc50.png)
+![image](https://user-images.githubusercontent.com/73413798/117540267-f9c89600-b040-11eb-96cb-58eb9167258f.png)
+
+Spring Boot is a new framework from the Pivotal team designed to simplify the initial setup and development process for new Spring applications. The framework uses a specific way to configure, eliminating the need for developers to define boilerplate configurations. As a popular Java framework, SpringBoot can be easily integrated with MongoDB. We can manipulate MongoDB with code by simply adding code and MongoDB related configuration in its configuration file Application.yml.
+
+At the same time, SpringBoot, as a server-side framework, integrates Tomcat container in spring-boot-starter-web. We just need to run it to provide services.
+
+
 Middle Tier - Express, Node, the RESTful API
 Front End - Angular. Details of implementation.
 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
