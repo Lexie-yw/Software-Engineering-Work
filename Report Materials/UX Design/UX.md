@@ -41,7 +41,7 @@ With the user persona sketch as a guidance, we decided that Little Planet should
   * Simple in Style
   * Streamlined Workflow
 
-We then drafted our initial wireframe with powerpoint and implemented it in Figma, below is a short video about the low fidelity prototype we created with Figma.
+At the paper prototyping stage, considering the situation caused by the pandemic, we used teams and Figma these online collaboration tools instead. We first drafted our paper prototype with Powerpoint through teams and then implemented it in Figma(a prototype design tool). Below is a short video about the low fidelity prototype we created.
 
 <p align = "center">
 <img src="/Report%20Materials/UX%20Design/UX%20images/little-planet-prototype.gif" alt="User Persona Sketch" width="600"/>
