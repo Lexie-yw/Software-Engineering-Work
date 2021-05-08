@@ -6,14 +6,14 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CommonService {
 
-  public domain:string='http://little-planet.com/';
+  public domain:string='http://localhost:8081/';
 
   constructor(public http:HttpClient) { }
 
   get(api:any){
     return new Promise((resolve,reject)=>{
 
-      this.http.get(this.domain + api).subscribe((response)=>{
+      this.http.get(this.domain +api ).subscribe((response)=>{
 
         resolve(response);
       })

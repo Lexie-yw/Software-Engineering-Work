@@ -31,11 +31,10 @@ export class TrackerComponent implements OnInit {
   constructor(public common:CommonService) { }
 
   ngOnInit(): void {
-    var api = 'api/goal1';
+    var api = 'goal/get/2';
     this.common.get(api).then((response:any)=>{
       console.log(response);
       this.list=response.result;
-
     })
   }
 
