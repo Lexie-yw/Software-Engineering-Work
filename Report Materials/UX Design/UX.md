@@ -35,6 +35,21 @@ No matter what age they are; where they are from; what occupation they have, as 
 
 
 ### Initial Prototyping
+With the user persona sketch as a guidance, we decided that Little Planet should implement the following features:
+  * Progress Tracking / Progress Visualization
+  * CCG
+  * Simple in Style
+  * Streamlined Workflow
+
+We then drafted our initial wireframe with powerpoint and implemented it in Figma, below is a short video about the low fidelity prototype we created with Figma.
+
+<p align = "center">
+<img src="/Report%20Materials/UX%20Design/UX%20images/little-planet-prototype.gif" alt="User Persona Sketch" width="600"/>
+</p>
+
+### Moodboard
+
+
 
 
 ### Identification of Users and Stakeholders
