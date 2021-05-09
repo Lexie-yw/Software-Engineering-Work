@@ -13,10 +13,14 @@ For data storage, we chose the relatively popular MongoDB, which has good suppor
 
 **Middle Tier**  
 ###Springboot  
-Spring Boot is a new framework from the Pivotal team designed to simplify the initial setup and development process for new Spring applications. The framework uses a specific way to configure, eliminating the need for developers to define boilerplate configurations. As a popular Java framework, SpringBoot can be easily integrated with MongoDB. We can manipulate MongoDB with code by simply adding code and MongoDB related configuration in its configuration file Application.yml.  
-![page1]![image](https://user-images.githubusercontent.com/73413798/117576452-aaee2f80-b118-11eb-86a5-fb9da6202d4d.png)  
+Spring Boot is a new framework from the Pivotal team designed to simplify the initial setup and development process for new Spring applications.  
+The framework uses a specific way to configure, eliminating the need for developers to define boilerplate configurations. As a popular Java framework, SpringBoot can be easily integrated with MongoDB. We can manipulate MongoDB with code by simply adding code and MongoDB related configuration in its configuration file Application.yml.    
+
+![image](https://user-images.githubusercontent.com/73413798/117576452-aaee2f80-b118-11eb-86a5-fb9da6202d4d.png)  
+
+
 At the same time, SpringBoot, as a server-side framework, integrates Tomcat container in spring-boot-starter-web. We just need to run it to provide services.  
-![page2}![image](https://user-images.githubusercontent.com/73413798/117576474-be999600-b118-11eb-8fa9-6d5f4cce6ab1.png)  
+![image](https://user-images.githubusercontent.com/73413798/117576474-be999600-b118-11eb-8fa9-6d5f4cce6ab1.png)  
 
 
 
