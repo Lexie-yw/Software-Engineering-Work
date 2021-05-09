@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 @Component({
   selector: 'app-registration',
   templateUrl: './registration.component.html',
@@ -12,9 +14,14 @@ export class RegistrationComponent implements OnInit {
   public email: any = "This is your email";
   public keywords: string = " This is the default value";
 
+  public list:any = {
+    userName : null,
+    email : null,
+    password : null
+  };
 
 
-  constructor() { }
+  constructor(public http:HttpClient) { }
 
   ngOnInit(): void {
 
@@ -25,7 +32,13 @@ export class RegistrationComponent implements OnInit {
   }
 
   create_account() {
-    alert('A new account has been created');
+    //alert('A new account has been created');
+    const httpOptions = { headers: new HttpHeaders({'ContentType':'application/json'})};
+    var api = 'http://localhost:8081/user/register';
+    this.http.post(api,this.list,httpOptions).
+    subscribe((response)=>{
+      console.log(response);
+    })
   }
 
   find_password() {
