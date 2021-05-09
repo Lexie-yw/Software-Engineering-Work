@@ -3,7 +3,6 @@
         <div id="logo"><h1>Little Planet</h1></div>
 
         <br>
-        <br>
 
             <div id="nav">
                 <p>
@@ -18,7 +17,7 @@
     </div>
 
     <div id = "site_content">
-        <h2>Form Your Habbit to Build Your Planet</h2>
+        <h2>Form Your Habits to Build Your Planet</h2>
         <div id = "goal_list">
             <!-- <a class="goal-list-item is-active">Goal #1</a> -->
             <!-- <a class="goal-list-item">Goal #1</a>
@@ -27,6 +26,7 @@
             <ul>
               <li *ngFor= "let item of goal_list">
                 <a class="goal-list-item" [routerLink]="['/goal-content/',item.goal_num ]" >{{item.goal_num}}--{{item.goal_name}}</a>
+                
               </li>
             </ul>
 <!--

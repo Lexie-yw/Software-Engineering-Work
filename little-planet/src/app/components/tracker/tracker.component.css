@@ -35,7 +35,7 @@ strong {
 }
 
 #goal_list, #goal_list a {
-    margin: 10px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
@@ -48,6 +48,7 @@ strong {
 
 #goal_list a:hover {
     color: silver;
+    border-width: 2px;
 }
 
 .goal-list-item {

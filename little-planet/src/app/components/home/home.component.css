@@ -16,7 +16,7 @@ h1, h2, h3 {
 }
 
 .box span {
-  color: red;
+  color: rgb(226, 130, 146);
   opacity: 0;
   transform: translate(-150px, 0) scale(.5);
   animation: leftRight 1s forwards;
