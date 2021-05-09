@@ -22,25 +22,36 @@
         <h2>Welcom Back</h2>
 
         <br>
+        <form id = "account_info">
+            <div class="row">
+              <label for="uname">UserName: </label>
+              <!-- <input type="text" id="gname" name="goalName" placeholder="Your goal.."> -->
+              <input type="text" id="uname" name="userName" [(ngModel)]='list.userName'>
+              <!-- {{goal.goal_name}} -->
+            </div>
 
-        <h2>UserName: <input type = "text" [(ngModel)]='list.userName' ></h2>
+        <!-- <h2 >UserName: <input type = "text" [(ngModel)]='list.userName' ></h2> -->
+            <div class="row">
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" [(ngModel)]='list.email'>
+            </div>
+        <!-- <h2>Email: <input type = "text" [(ngModel)]='list.email'></h2> -->
+            <div class="row">
+                <label for="pswd">Passward: </label>
+                <input type="text" id="pswd" name="password" [(ngModel)]='list.password'>
 
-        <br>
+            </div>    
+        <!-- <h2>Password: <input type = "text" [(ngModel)]='list.password'></h2> -->
 
-        <h2>Email: <input type = "text" [(ngModel)]='list.email'></h2>
+            <br>
+            <br>
 
-        <br>
-
-        <h2>Password: <input type = "text" [(ngModel)]='list.password'></h2>
-
-        <br>
-        <br>
-
-        <div id = "decision">
-            <button (click) = "login()" class = "otherButton">Login</button>
-            <button (click) = "create_account()" class = "otherButton">Create a New Account</button>
-            <button (click) = "find_password()" class = "otherButton">Find My Password</button>
-        </div>
+            <div id = "decision">
+                <button (click) = "login()" class = "otherButton">Login</button>
+                <button (click) = "create_account()" class = "otherButton">Create a New Account</button>
+                <button (click) = "find_password()" class = "otherButton">Find My Password</button>
+            </div>
+        </form>
 
     </div>
 </div>
