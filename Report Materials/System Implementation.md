@@ -1,5 +1,5 @@
 **System Implementation**
-#Stack architecture and system design
+#Stack architecture and system design#
 #Stack architecture
 #System design
 #Class diagram
