@@ -1,8 +1,8 @@
 **System Implementation**  
 #_System design and Stack architecture_  
  
-##Class diagram  
-#Sequence diagram  
+#Class diagram  
+##Sequence diagram  
 #Back End - MongoDB  
 ##Database implementation  
 ##Data model  
