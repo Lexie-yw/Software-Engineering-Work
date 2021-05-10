@@ -61,6 +61,6 @@ db.reward.insert({img_index:46, img_url:"https:\/\/github.com/Lexie-yw/Software-
 db.reward.insert({img_index:47, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/baltic%20sea/pic.png?raw=true", img_achieved:0});
 
 //polar
-db.reward.insert({img_index:2, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Polar/penguin.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:48, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Polar/penguin.png?raw=true", img_achieved:0});
 
 db.reward.find({});
