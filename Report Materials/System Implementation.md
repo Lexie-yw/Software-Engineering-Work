@@ -14,7 +14,8 @@
 
 In this project, we used the front and back end separation method. The front end uses Angular to render and display the page. The more popular Spring Boot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.  
 
-![image](https://user-images.githubusercontent.com/73413798/117671855-d423c400-b1db-11eb-8cd4-2fd491fc61c8.png)
+![image](https://user-images.githubusercontent.com/73413798/117672266-44324a00-b1dc-11eb-9ce6-cc82c385a90e.png)
+
 
  
 
