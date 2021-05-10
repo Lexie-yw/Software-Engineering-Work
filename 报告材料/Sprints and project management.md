@@ -8,6 +8,10 @@ Fountain models are mainly used in software development projects using object te
 ![image](https://user-images.githubusercontent.com/73413798/117652063-49d06580-b1c5-11eb-825c-9604cc61057a.png)
 
 
+The Fountain model is essentially a slightly improved version of its stricter relative – The Waterfall model. This model allows for the advancement from (and return to) various stages of software development regardless of whether or not enough tasks have been completed to reach it.
+
+
+
 * Advantages of the fountain model:  
 
 Unlike waterfall models, fountain models need to start designing activities after the analysis activities and coding activities after the design activities. The phases of the model are not clearly demarcated and developers can develop simultaneously. Its advantage is that it can improve the software project development efficiency, save the development time, and adapt to the object-oriented software development process.
