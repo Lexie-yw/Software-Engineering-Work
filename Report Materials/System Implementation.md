@@ -1,8 +1,10 @@
 # System Implementation
 * [**Stack architecture and system design**](#stack-architecture-and-system-design)
-* [**Back End**](#back-end)
-* [**Middle Tier**](#middle-tier)
 * [**Front End**](#front-end)
+* [**Middle Tier**](#middle-tier)
+* [**Back End**](#back-end)
+
+
 
 
 ## **Stack architecture and system design**
@@ -54,8 +56,11 @@ The front end uses Angular to render and display the page. The more popular Spri
 
 
 ### SpringBoot  
+
+
 SpringBoot is a new framework from the Pivotal team designed to simplify the initial setup and development process for new Spring applications.  
-The framework uses a specific way to configure, eliminating the need for developers to define boilerplate configurations. As a popular Java framework, SpringBoot can be easily integrated with MongoDB. We can manipulate MongoDB with code by simply adding code and MongoDB related configuration in its configuration file Application.yml.    
+The framework uses a specific way to configure, eliminating the need for developers to define boilerplate configurations. As a popular Java framework, SpringBoot can be easily integrated with MongoDB. We can manipulate MongoDB with code by simply adding code and MongoDB related configuration in its configuration file Application.yml.  
+
 
 ![image](https://user-images.githubusercontent.com/73413798/117576452-aaee2f80-b118-11eb-86a5-fb9da6202d4d.png)  
 
@@ -67,7 +72,8 @@ The background adopts the hierarchical management method. Under the com.work pac
 
 ![image](https://user-images.githubusercontent.com/73413798/117577115-0e795c80-b11b-11eb-9dd5-de4c961ad8d1.png)  
  
-The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. We also created the underlying return information under the resp package.   
+The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. We also created the underlying return information under the resp package.    
+
 The Response class is returned as a uniformly formatted data format, with code identifying the return code. msg is the message prompt and data is the data returned. Finally, the Controller provides the interface path and the mapping implementation. It is in a resful style, and the return type is json, which is convenient for passing down and receiving.  
   
 
