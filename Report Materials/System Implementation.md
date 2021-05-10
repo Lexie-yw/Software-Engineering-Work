@@ -4,6 +4,8 @@
 
 ## Middle Tier
 ## Back End - MongoDB  
+* ### Data model  
+* ### Database implementation
 
 
 
