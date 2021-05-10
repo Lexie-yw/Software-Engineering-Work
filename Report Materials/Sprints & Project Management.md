@@ -1,4 +1,4 @@
-# Sprints and project management
+# Sprints & Project Management
 
 
 
