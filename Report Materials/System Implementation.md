@@ -12,12 +12,19 @@
 
 
 
-In this project, we used the front and back end separation method. The front end uses Angular to render and display the page. The more popular Spring Boot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.  
+In this project, we used the front and back end separation method. 
 
-![image](https://user-images.githubusercontent.com/73413798/117672266-44324a00-b1dc-11eb-9ce6-cc82c385a90e.png)
+![image](https://user-images.githubusercontent.com/73413798/117672266-44324a00-b1dc-11eb-9ce6-cc82c385a90e.png)  
 
 
- 
+
+The front end uses Angular to render and display the page. The more popular Spring Boot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.  
+
+
+   
+   
+   
+   
 
 ![image](https://user-images.githubusercontent.com/73413798/117623119-fb5f9e80-b1a5-11eb-9eb6-a292a0f3dfda.png)
 
@@ -85,6 +92,17 @@ It is characterized by high performance, easy to deploy, easy to use, and easy t
 * Automated fragmentation processing to support cloud level scalability
 * The file storage format is BSON (an extension of JSON).
 * Accessible via the network.  
+
+![image](https://user-images.githubusercontent.com/73413798/117675038-cae82680-b1de-11eb-8ddd-7c0001058be6.png)
+
+
+
+![image](https://user-images.githubusercontent.com/73413798/117674564-590fdd00-b1de-11eb-8f6d-b2a91cd5103f.png)
+
+
+We save the reward pictures into the database, and the user collects the pictures by completing the goal. The corresponding relationship is shown in the figure.
+
+
 
 
 
