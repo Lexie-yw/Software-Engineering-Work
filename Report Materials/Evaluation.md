@@ -110,7 +110,7 @@ Registration mock:
 ```  
 
 
-Return the result
+Return result
 
 ```
 MockHttpServletResponse:
