@@ -36,6 +36,8 @@ For example, the code of the Service layer contains calls to the DAO layer, but 
 
 (3) The object dependent on the measured unit is difficult to simulate or complex to construct.
 
+&nbsp; 
+
 
 
 Advantages of Mock testing：  
