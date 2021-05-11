@@ -58,9 +58,11 @@ After we had a prototype in hand, we immediately asked our friends and families 
 </p>
 
 ## Users and Stakeholders
+We always prioritized users throughout our UX design process. There are two rounds of user research we made in total. 
 ### Identification of Users and Stakeholders
+The first round happened during our ideation stage, where we shared our project ideas with our friends and families, and concluded that our potential users would be people with needs for progress tracking and habit forming and confirmed that relevant product managers and developers would be stakeholders. According to that conclusion and discussion during ideation stage, we managed to draw user persona sketch at the very begining of our UI design process. Please scroll up to the user persona sketch section to see more details!
 ### Understanding Users
-
+Right after we created our prototype, we asked our friends and families again to try out the application. This time, we made the following questionnaires to collect user feedbacks. (Details to be updated...)
 ##
 
 
