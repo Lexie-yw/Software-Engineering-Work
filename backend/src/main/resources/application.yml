@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+      name: little_planet
+  data:
+    mongodb:
+      database: userdb
+      host: localhost
+      port: 27017
+      authentication-database: admin
