@@ -111,6 +111,7 @@ Registration mock:
 
 
 Return the result
+
 ```
 MockHttpServletResponse:
            Status = 200
@@ -121,10 +122,11 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-          ```
+ ```
  The user is prompted that the user already exists because the user already exists.   
  
  AddGoal mock:  
+ 
  ```
  @Test
     public void addGoal() throws Exception{
@@ -141,8 +143,10 @@ MockHttpServletResponse:
                 .andDo(print()).andReturn().getResponse();
     }
  ``` 
- Return result
- ```  
+ 
+ Return result  
+ 
+ ```
  MockHttpServletResponse:
            Status = 200
     Error message = null
@@ -152,6 +156,41 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-    ```
-    
+```
+Get goal mock:  
+```
+@Test
+    public void getGoal() throws Exception{
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/goal/get/6087d963120dda53a75f6149"))
+                .andDo(print()).andReturn().getResponse();
+    }
+```
+Get goal 6087d963120dda53a75f6149 as user ID mock:  
+```
+@Test
+    public void getGoal() throws Exception{
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/goal/get/6087d963120dda53a75f6149"))
+                .andDo(print()).andReturn().getResponse();
+    }
+```   
+Return result  
+```
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"code":200,"msg":"success","data":[{"goalId":"609a22c7fbc24d11cb84cae0","userId":"6087d963120dda53a75f6149","goalName":"test4","description":"desc","startTime":null,"endTime":null,"status":0,"totalTimes":10,"nowTimes":0},{"goalId":"609a23b97487b70b7bfd64c5","userId":"6087d963120dda53a75f6149","goalName":"test4","description":"desc","startTime":null,"endTime":null,"status":0,"totalTimes":10,"nowTimes":0},{"goalId":"609a24660628c1106461e934","userId":"6087d963120dda53a75f6149","goalName":"test4","description":"desc","startTime":null,"endTime":null,"status":0,"totalTimes":10,"nowTimes":0}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+``` 
+Get picture mock:
+``` 
+@Test
+    public void getpic() throws Exception{
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/reward/get/pic"))
+                .andDo(print()).andReturn().getResponse();
+    }
+``` 
     
