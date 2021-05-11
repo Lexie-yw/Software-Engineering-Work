@@ -6,7 +6,9 @@ First we need to categorize different type of information
 * Previously unknown valid information
 * Improve existing knowledge
 * Information that produces new cognition after destroying inherent cognition 
+
 &emsp;&emsp;The later information is more useful, but you will find that most of the fragmented information tends to be concentrated in the top 3. and their hazards is listed as follow:
+
 * The content is often facts rather than logic, so you don't need to think much.
 * The organization logic is not systematic and in-depth.
 * Easy to distract.
