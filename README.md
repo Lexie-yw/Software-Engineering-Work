@@ -10,7 +10,7 @@ Time to develop your perseverance and build your own planet!
 
 
 Name / photo / role for each team member.
-## [Introduction](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction.md#abstract)
+## [Introduction](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction/Introduction.md)
 ## [Background and Motivation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20and%20Motivation.md)
 Background literature. Academic research review.
 State of the art survey. Current industry review.
