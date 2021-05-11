@@ -21,7 +21,7 @@ This section comprises of the following segments:
 Background literature. Academic research review.
 State of the art survey. Current industry review.
 Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a worthwhile and important problem and clearly articulate the scope and challenge of the problem.
-## System Implementation [20 marks]:
+## [System Implementation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/System%20Implementation.md)
 Stack architecture and system design (e.g. class diagrams, sequence diagrams).
 
 
