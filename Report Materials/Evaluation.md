@@ -24,7 +24,8 @@ such as the code under test need to rely on third-party interface logic to handl
 
 2) The interface of the dependent upstream project has not been developed yet, and it needs to be tested by interface coordination;
 
-For example, the code of the Service layer contains calls to the DAO layer, but the DAO layer code has not been implemented yet
+For example, the code of the Service layer contains calls to the DAO layer, but the DAO layer code has not been implemented yet.  
+
 
 (3) The object dependent on the measured unit is difficult to simulate or complex to construct.
 
@@ -63,7 +64,8 @@ We use springbootTest to Test the background interface under the Test package.
 
 And we mock the front end request to verify the correctness of the result.
 
-login simulation  
+Login mock: 
+
 ```@Test
     public void login() throws Exception{
         User user=new User();
@@ -73,7 +75,83 @@ login simulation
       this.mockMvc.perform(MockMvcRequestBuilders.post("/user/login")
               .contentType(MediaType.APPLICATION_JSON).content(param))
       .andDo(print()).andReturn().getResponse();
-    }  
+    }
+```
     
     
-The results are printed on the console.
+The results are printed on the console.  
+
+```
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"code":200,"msg":"success","data":{"userId":"6087d963120dda53a75f6149","userName":"test4","email":"123@164.com","password":"123"}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+```  
+
+Registration mock:  
+```
+@Test
+    public void register() throws Exception{
+        User user=new User();
+        user.setUserName("test4");
+        user.setEmail("123@164.com");
+        user.setPassword("123");
+        String param= JSONObject.toJSONString(user);
+        this.mockMvc.perform(MockMvcRequestBuilders.post("/user/register")
+                .contentType(MediaType.APPLICATION_JSON).content(param))
+                .andDo(print()).andReturn().getResponse();
+    }
+```  
+
+
+Return the result
+```
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"code":10003,"msg":"user is exists","data":null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+          ```
+ The user is prompted that the user already exists because the user already exists.   
+ 
+ AddGoal mock:  
+ ```
+ @Test
+    public void addGoal() throws Exception{
+        Goal goal=new Goal();
+        goal.setUserId("6087d963120dda53a75f6149");
+        goal.setGoalName("test4");
+        goal.setDescription("desc");
+        goal.setTotalTimes(10);
+        goal.setNowTimes(0);
+        goal.setStatus(0);
+        String param= JSONObject.toJSONString(goal);
+        this.mockMvc.perform(MockMvcRequestBuilders.post("/goal/add")
+                .contentType(MediaType.APPLICATION_JSON).content(param))
+                .andDo(print()).andReturn().getResponse();
+    }
+ ``` 
+ Return result
+ ```  
+ MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"code":200,"msg":"success","data":null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+    ```
+    
+    
