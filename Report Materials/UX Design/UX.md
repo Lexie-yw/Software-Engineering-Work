@@ -52,7 +52,7 @@ At the paper prototyping stage, considering the situation caused by the pandemic
 </p>
 
 ### Moodboard
-After we had a prototype in hand, we immediately asked our friends and families to try it out and asked their preference towards the UI style, then we made the following moodboard!
+After we had a prototype in hand, we immediately asked our friends and families to try it out and asked their preferences towards the UI style, then we made the following moodboard!
 <p align = "center">
 <img src="/Report%20Materials/UX%20Design/UX%20images/Moodboard.png" alt="Moodboard" width="600"/>
 </p>
