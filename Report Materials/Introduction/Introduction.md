@@ -35,8 +35,8 @@
 ### Higher level overview of our project.
 &emsp;&emsp;Little planet is a one page web application that helps users to form habits in the form of CCG(Card Collect Game), We let users to seperate their big goal into small and easy pieces, everytime users achieved a small goal they can click in and get a corresponding card reward(representative attractions in various countries), this will motivate users carry on their habit forming process. we also store the user's  habit forming path in local database, so users can review their achievement in the web page library. Our app follow the classic repetition-feedback model in psychology, so users can get timely feedback after completing the staged small goals, users can finally form some habits by the repetition of this process.
 
-## Project Objectives.//改一下
-&emsp;&emsp;Our primary goal is to complete a MEAN stack single page application, which front-end allow users to setup goals, click-in and review their achievement and save all these data in database by the implementation of java. 
+## Project Objectives.
+&emsp;&emsp;Our primary goal is to complete a MEAN stack single page application, which front-end allow users to setup goals, click-in and review their achievement and save all these data in database by the implementation of java. //改一下
 
 ### Higher level goals.
 * Spread the knowledge of scientific habit forming, especially in university student group, so user group may know how to design a plan to form a habit themselves.
