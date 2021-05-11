@@ -57,12 +57,14 @@ For example, if you need to call a resource outside the "wall" for debugging pur
 If we need to call a POST request to get a response and see if the current system is handling the "response" correctly, but the POST request is polluting the data in the database, then we can take full use of the Mock and construct a virtual POST request that we specify to return.
 
 
-
+&nbsp;
 
 
 We use springbootTest to Test the background interface under the Test package.  
 
 And we mock the front end request to verify the correctness of the result.
+
+&nbsp;  
 
 Login mock: 
 
