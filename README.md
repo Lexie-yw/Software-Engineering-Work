@@ -10,7 +10,7 @@ Time to develop your perseverance and build your own planet!
 
 
 Name / photo / role for each team member.
-## Introduction [10 marks]
+## [Introduction [10 marks]](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction)
 Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
 Project Objectives. The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success.
 Video. Short (1-2min) demo video to explain your system (think Kickstarter)
