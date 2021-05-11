@@ -41,7 +41,16 @@ The layering is to achieve "high cohesion, low coupling". The idea of "divide an
    
  &nbsp;  
    
-   
+Three-tier Architecture provides the following benefits:  
+
+
+Scalability — Each tier can scale horizontally. For example, you can load-balance the Presentation tier among three servers to satisfy more Web requests without adding servers to the Application and Data tiers.  
+
+Performance — Because the Presentation tier can cache requests, network utilization is minimized, and the load is reduced on the Application and Data tiers. If needed, you can load-balance any tier.  
+
+Availability — If the Application tier server is down and caching is sufficient, the Presentation tier can process Web requests using the cache.   
+
+&nbsp;
 
 ![image](https://user-images.githubusercontent.com/73413798/117623119-fb5f9e80-b1a5-11eb-9eb6-a292a0f3dfda.png)
 
