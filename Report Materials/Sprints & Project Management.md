@@ -42,7 +42,11 @@ The Fountain model is essentially a slightly improved version of its stricter re
 
 Advantages of the fountain model:  
 
-Unlike waterfall models, fountain models need to start designing activities after the analysis activities and coding activities after the design activities. The phases of the model are not clearly demarcated and developers can develop simultaneously. Its advantage is that it can improve the software project development efficiency, save the development time, and adapt to the object-oriented software development process.
+Unlike waterfall models, fountain models need to start designing activities after the analysis activities and coding activities after the design activities. The phases of the model are not clearly demarcated and developers can develop simultaneously. Its advantage is that it can improve the software project development efficiency, save the development time, and adapt to the object-oriented software development process.  
+
+Disadvantages of the fountain model：  
+
+Because the fountain model overlaps in each development stage, it requires a large number of developers during the development process, which is not conducive to project management. In addition, this model requires strict management of documents, which makes auditing more difficult, especially when various information, requirements, and materials may be added at any time.
 
 Since the project development time is limited and our project focuses on the needs of users, we want to be able to carry out the project development more efficiently. So we chose the fountain model, so that we could clearly divide the work and each of us could focus on what we were responsible for. In addition, we set stage goals for everyone, and we will have regular meetings in the team channel to communicate progress and requirements, so as to ensure the smooth progress of the project.
 
