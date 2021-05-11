@@ -95,6 +95,7 @@ Availability — If the Application tier server is down and caching is sufficien
 ### SpringBoot  
 
 &nbsp;
+
 SpringBoot is a new framework from the Pivotal team designed to simplify the initial setup and development process for new Spring applications.  
 The framework uses a specific way to configure, eliminating the need for developers to define boilerplate configurations. As a popular Java framework, SpringBoot can be easily integrated with MongoDB. We can manipulate MongoDB with code by simply adding code and MongoDB related configuration in its configuration file Application.yml.   
 
