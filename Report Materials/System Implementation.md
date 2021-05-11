@@ -24,7 +24,16 @@ In this project, we used the front and back end separation method. The front end
 
 &nbsp;
 
+The three-tier development is to divide the whole business application of the system into the presentation layer, the business logic layer and the data access layer, which is conducive to the development, maintenance, deployment and expansion of the system.
 
+The layering is to achieve "high cohesion, low coupling". The idea of "divide and conquer" is adopted to divide problems into different solutions, which is easy to control, easy to extend, and easy to allocate resources.  
+
+
+Presentation layer: responsible for direct interaction with the user, generally refers to the interface of the system, used for data entry, data display, etc. It means to only do the work related to the appearance display, and do not do the work that does not belong to him.  
+
+Business logic layer: used to do some validation work, to better ensure the robustness of the program running. Such as the completion of data add, modify and query business; The specified text box is not allowed to enter an empty string, data format is correct and data type verification; The legitimacy of the user's authority and so on, through the above many judgments to decide whether the operation will continue to pass back, as far as possible to ensure the normal operation of the program.  
+
+Data access layer: As the name suggests, it is dedicated to interacting with the database. Perform data addition, deletion, modification, display, etc. It is important to note that all Data objects are referenced only at this level, such as System.Data.SQLClient, and should not be referenced anywhere outside of the Data level.
    
    
    
