@@ -54,7 +54,7 @@ Data access layer: As the name suggests, it is dedicated to interacting with the
 
 
 
-* The Spring framework is an open source application framework on the Java platform that provides a container with inversion of control features.    
+* The Springboot framework is an open source application framework on the Java platform that provides a container with inversion of control features.    
 
 
 &nbsp;
