@@ -5,8 +5,6 @@
 * [**Current industry review**](#Current-industry-review)
 * [**Problem**](#Problem)
 * [**Our strength**](#Our-strength)
-* [**Identification of Users and Stakeholders**](#identification-of-users-and-stakeholders)
-* [**Understanding Users**](#understanding-users)
 
 
 ## Academic research review 
