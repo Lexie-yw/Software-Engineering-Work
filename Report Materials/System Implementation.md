@@ -157,8 +157,9 @@ We save the reward pictures into the database, and the user collects the picture
 
 &nbsp;
 
+![image](https://user-images.githubusercontent.com/73413798/117832356-000c7b80-b2a8-11eb-8583-ca6e528b114a.png)  
 
-![image](https://user-images.githubusercontent.com/73413798/117619458-dd903a80-b1a1-11eb-85d8-0783b39a1192.png)  
+
 
 &nbsp;
 
