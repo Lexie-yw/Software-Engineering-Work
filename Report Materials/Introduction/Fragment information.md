@@ -17,4 +17,5 @@ First we need to categorize different type of information
 
 &emsp;&emsp;So we need to get rid of these fragment information, but at the same time, can we use the features of fragment information to help us develop some skills? Like the features that its small and easy to adopt.  
 
+https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction/v2-59c5add1ae9073d9bcd9b8ca8eccbb3e_1440w.jpg
 
