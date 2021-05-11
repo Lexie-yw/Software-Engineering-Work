@@ -14,13 +14,15 @@
 
 
 
-In this project, we used the front and back end separation method. 
+In this project, we used the front and back end separation method. The front end uses Angular to render and display the page. The more popular Spring Boot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.    
+
+
 
 ![image](https://user-images.githubusercontent.com/73413798/117672266-44324a00-b1dc-11eb-9ce6-cc82c385a90e.png)  
 
 
 
-The front end uses Angular to render and display the page. The more popular Spring Boot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.  
+
 
 
    
@@ -81,9 +83,24 @@ The background adopts the hierarchical management method. Under the com.work pac
 
 ![image](https://user-images.githubusercontent.com/73413798/117577115-0e795c80-b11b-11eb-9dd5-de4c961ad8d1.png)  
  
-The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. We also created the underlying return information under the resp package.    
+The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. We also created the underlying return information under the resp package.  
 
-The Response class is returned as a uniformly formatted data format, with code identifying the return code. msg is the message prompt and data is the data returned. Finally, the Controller provides the interface path and the mapping implementation. It is in a resful style, and the return type is json, which is convenient for passing down and receiving.  
+The RESTful architectural style dictates that meta-operations on data, namely CRUD(create, read, update, and delete) operations correspond to HTTP methods, respectively: GET is used to obtain resources, POST is used to create resources (which can also be used to update resources), PUT is used to update resources, and DELETE is used to DELETE resources, thus unifying the interface of data operation. All the work of adding, deleting and changing data can be done only through the HTTP method.
+
+That is:
+
+Get (SELECT) : fetches resources (one or more) from the server.  
+
+POST (CREATE) : Create a new resource on the server.  
+
+PUT (UPDATE) : Updates the resource on the server (the client provides the complete resource data).  
+
+PATCH (UPDATE) : Update the resource on the server (the client provides the resource data that needs to be modified).  
+
+Delete (Delete) : Deletes a resource from the server.  
+
+
+The Response class is returned as a uniformly formatted data format, with code identifying the return code. msg is the message prompt and data is the data returned. Finally, the Controller provides the interface path and the mapping implementation. It is in a RESTful style, and the return type is json, which is convenient for passing down and receiving.  
   
 
 
