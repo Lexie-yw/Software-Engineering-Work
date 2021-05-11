@@ -1,13 +1,13 @@
 # introduction
 * [**Abstract**](#abstract)
-  * [**Why(Our motivation)?**](#whymotivation)
-  * [**What(Problem we aim to solve)?**](#howProblem-frame)
-  * [**Higher level overview of our project.**](#howProblem-frame)
+  * [**Why(Our motivation)?**](#whyour-motivation)
+  * [**What(Problem we aim to solve)?**](#whatproblem-we-aim-to-solve)
+  * [**Higher level overview of our project.**](#higher-level-overview-of-our-project)
 * [**Project Objectives.**](#project-objectives)
   * [**Higher level goals.**](#higher-level-goals)
-  * [**System design logic/how we solve our problem.**](#higher-level-goals)
-* [**Team Checklist**](#higher-level-goals)
-* [**System demo**](#higher-level-goals)
+  * [**System design logic/how we solve our problem.**](#system-design-logichow-we-solve-our-problem)
+* [**Team Checklist**](#team-checklist)
+* [**System demo**](#system-demo)
   
 ## Abstract   
 ### Why(Our motivation)?
