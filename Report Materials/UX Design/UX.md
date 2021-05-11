@@ -10,6 +10,10 @@
 * [**Users and Stakeholders**](#users-and-stakeholders)
   * [**Identification of Users and Stakeholders**](#identification-of-users-and-stakeholders)
   * [**Understanding Users**](#understanding-users)
+* [**UX Approach**](#ux-approach)
+  * [**Design Methods**](#design-methods)
+* [**Final Revisions**](#final-revisions)
+  * [**Wireframes and Interaction Flow Diagrams**](#wireframes-and-interaction-flow-diagrams)
 
 
 ## Design Process
@@ -48,10 +52,15 @@ At the paper prototyping stage, considering the situation caused by the pandemic
 </p>
 
 ### Moodboard
+After we had a prototype in hand, we immediately ask our friends and families to try it out and asked their preference towards the UI style, then we made the following moodboard!
+<p align = "center">
+<img src="/Report%20Materials/UX%20Design/UX%20images/Moodboard.png" alt="Moodboard" width="600"/>
+</p>
 
-
-
-
+## Users and Stakeholders
 ### Identification of Users and Stakeholders
+### Understanding Users
+
+##
 
 
