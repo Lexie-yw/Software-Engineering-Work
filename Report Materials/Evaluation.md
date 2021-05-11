@@ -54,3 +54,26 @@ For example, if you need to call a resource outside the "wall" for debugging pur
 (4) isolation system
 
 If we need to call a POST request to get a response and see if the current system is handling the "response" correctly, but the POST request is polluting the data in the database, then we can take full use of the Mock and construct a virtual POST request that we specify to return.
+
+
+
+
+
+We use springbootTest to Test the background interface under the Test package.  
+
+And we mock the front end request to verify the correctness of the result.
+
+login simulation  
+```@Test
+    public void login() throws Exception{
+        User user=new User();
+        user.setEmail("123@164.com");
+        user.setPassword("123");
+        String param= JSONObject.toJSONString(user);
+      this.mockMvc.perform(MockMvcRequestBuilders.post("/user/login")
+              .contentType(MediaType.APPLICATION_JSON).content(param))
+      .andDo(print()).andReturn().getResponse();
+    }  
+    
+    
+The results are printed on the console.
