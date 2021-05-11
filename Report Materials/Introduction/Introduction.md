@@ -11,7 +11,7 @@
   
 ## Abstract   
 ### Why(Our motivation)?
-&emsp;&emsp;You may find it quiet difficult to form a habit, our teammates also have the same concern. First it actually take a lot of time to form a habit, according to research, forming a habit may take you about 66 days in average(see **Figure 1**)<sup>1</sup>; Second, our society is full of [fragment information](http://github.com), it also block people from focuse on something that is difficult to get **short-term feedback**, just like habit forming; At last, even if you have enough time and with any External interference, you may also failed because don't know the right way to form a habit.
+&emsp;&emsp;You may find it quiet difficult to form a habit, our teammates also have the same concern. First it actually take a lot of time to form a habit, according to research, forming a habit may take you about 66 days in average(see **Figure 1**)<sup>1</sup>; Second, our society is full of [fragment information](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction/Fragment%20information.md), it also block people from focuse on something that is difficult to get **short-term feedback**, just like habit forming; At last, even if you have enough time and with any External interference, you may also failed because don't know the right way to form a habit.
     <p align="center">
 <img src="https://github.com/Blind4life/Tech/blob/main/N8)MRLSAI7K3M8(PXEYD%7BX7.png?raw=true" width = 50%>
 </p>
