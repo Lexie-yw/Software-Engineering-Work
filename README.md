@@ -14,7 +14,7 @@ Name / photo / role for each team member.
 Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
 Project Objectives. The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success.
 Video. Short (1-2min) demo video to explain your system (think Kickstarter)
-## [Background and Motivation] (Report%20Materials/Background%20and%20Motivation/ Background and Motivation.md)
+## [Background and Motivation] (https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20and%20Motivation.md)
 Background literature. Academic research review.
 State of the art survey. Current industry review.
 Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a worthwhile and important problem and clearly articulate the scope and challenge of the problem.
