@@ -3,14 +3,21 @@
 A Mock test is a test in which some complex object (such as a ResultSet object in JDBC) is not easy to construct (such as HttpServletRequest must be constructed in a Servlet container) or is not easy to obtain. A Mock object is used to create test methods that can be tested.
 
 Mocks are designed to solve problems that are difficult to develop and test due to coupling between different units. Therefore, mocks can be used in unit tests as well as during integration tests and system tests. The most important thing about mocks is that they help you decouple unit tests. If your code has dependencies on another class or interface, they can help you simulate those dependencies and verify the behavior of the called dependencies. For example, a piece of code has dependencies like this:  
+&nbsp;
 
 ![image](https://user-images.githubusercontent.com/73413798/117815599-38a45900-b298-11eb-8593-fe29be2deaf0.png)  
 
 
+&nbsp;
+
 When we need to test class A, if there is no Mock, we need to construct the entire dependency tree. Using A Mock, we can break down the structure like this:  
+
+&nbsp;
 
 
 ![image](https://user-images.githubusercontent.com/73413798/117815708-5245a080-b298-11eb-82f6-5bb4e5ed6995.png)  
+
+&nbsp;
 
 
 
@@ -65,6 +72,7 @@ We use springbootTest to Test the background interface under the Test package.
 And we mock the front end request to verify the correctness of the result.
 
 &nbsp;  
+
 
 Login mock: 
 
