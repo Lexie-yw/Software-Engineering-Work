@@ -1,0 +1,66 @@
+use planetdb;
+show dbs;
+
+//africa
+db.reward.insert({img_index:1, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/Algeria/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:2, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/East%20Africa/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:3, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/Egypt/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:4, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/Ethiopia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:5, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/Morocco/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:6, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/south%20Africa/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:7, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/sudan/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:8, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Africa/west%20Africa/pic.png?raw=true", img_achieved:0});
+
+//america_north
+db.reward.insert({img_index:9, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/America/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:10, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/Canada/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:11, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/Caribbean/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:12, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/Cuba/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:13, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/Mexico/pic.png?raw=true", img_achieved:0});
+
+//america_south
+db.reward.insert({img_index:14, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Argentina/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:15, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Bolivia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:16, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Brazil/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:17, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Chile/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:18, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Columbia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:19, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Peru/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:20, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_south/Venezuela/pic.png?raw=true", img_achieved:0});
+
+//asia
+db.reward.insert({img_index:21, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/China/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:22, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/India/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:23, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Iran/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:24, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Japan/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:25, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Korea/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:26, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Middle%20Aisa/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:27, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Middle%20East/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:28, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Mongolia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:29, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Pakistan/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:30, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/SEA/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:31, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Saudi%20Arabia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:32, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/South%20Asia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:33, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/Turkey/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:34, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Asia/isreal/pic.png?raw=true", img_achieved:0});
+
+//australia
+db.reward.insert({img_index:35, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Austria/Australia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:36, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Austria/new%20Zealand/pic.png?raw=true", img_achieved:0});
+
+//europe
+db.reward.insert({img_index:37, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/Balkan%20Peninsula/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:38, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/British/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:39, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/East%20Europe/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:40, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/French/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:41, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/Germany/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:42, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/Italy/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:43, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/Netherlands/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:44, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/North%20Europe/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:45, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/Russia/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:46, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/Spanish/pic.png?raw=true", img_achieved:0});
+db.reward.insert({img_index:47, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Europe/baltic%20sea/pic.png?raw=true", img_achieved:0});
+
+//polar
+db.reward.insert({img_index:48, img_url:"https:\/\/github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/Polar/penguin.png?raw=true", img_achieved:0});
+
+db.reward.find({});
