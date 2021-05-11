@@ -193,4 +193,16 @@ Get picture mock:
                 .andDo(print()).andReturn().getResponse();
     }
 ``` 
-    
+
+ Return result  
+ ```  
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"code":200,"msg":"success","data":{"id":"60992465ad200000e1003ccc","img_index":"10.0","img_url":"https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/Canada/pic.png?raw=true","img_achieved":"0.0"}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []	 
+ ```
