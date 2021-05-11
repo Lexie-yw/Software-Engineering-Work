@@ -33,7 +33,10 @@ In this project, we used the front and back end separation method. The front end
 ![image](https://user-images.githubusercontent.com/73413798/117623119-fb5f9e80-b1a5-11eb-9eb6-a292a0f3dfda.png)
 
 &nbsp;
+
 * Angular is a popular and easy-to-use front end framework that leverages the power of a modern Web platform with high performance, offline, and zero installation. 
+
+
 &nbsp;
 
 ![image](https://user-images.githubusercontent.com/73413798/117623140-01557f80-b1a6-11eb-9b1b-0208fa07491f.png)    
