@@ -28,6 +28,7 @@ The three-tier development is to divide the whole business application of the sy
 
 ![image](https://user-images.githubusercontent.com/73413798/117839430-cdfe1800-b2ad-11eb-9e1a-3a235eb0f8b5.png)
 
+&nbsp;
 
 The layering is to achieve "high cohesion, low coupling". The idea of "divide and conquer" is adopted to divide problems into different solutions, which is easy to control, easy to extend, and easy to allocate resources.  
 
@@ -38,7 +39,7 @@ The layering is to achieve "high cohesion, low coupling". The idea of "divide an
 
 * Data access layer: As the name suggests, it is dedicated to interacting with the database. Perform data addition, deletion, modification, display, etc. It is important to note that all Data objects are referenced only at this level, such as System.Data.SQLClient, and should not be referenced anywhere outside of the Data level.
    
-   
+ &nbsp;  
    
    
 
