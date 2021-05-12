@@ -46,15 +46,12 @@ This section comprises of the following segments:
 ## [Evaluation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Evaluation.md)  
 
 * Unit testing / Functional testing
-* Mock test
+* Back end test
 * User acceptance testing
 ## [Conclusion](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Conclusion.md)  
 
-Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).
-Reflective discussion of the success of the project. How well did your project fulfil the brief? Were all of your own objectives met
-This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)
-Discussion of Social and Ethical implications of your work.
-Discussion of future work (in terms of design, development and evaluation)
-## Presentation [5 marks]  
-
-There is a 5% mark for presentation, including formatting. We are looking for consistency, readability, conciseness, good use of figures and with the ultimate aim of this being a readable and useful public repo!
+* Reflect on the working practices
+* Reflective discussion of the success of the project
+* How coronavirus has affected our project 
+* Discussion of Social and Ethical implications
+* Discussion of future work
