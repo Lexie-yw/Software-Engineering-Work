@@ -26,6 +26,8 @@ Clear definition of the problem. How does your project relate to the above? We w
 * Front End 
 * Middle Tier 
 * Back End 
+* Additional elements and components
+* Continuous Integration
 
 
 
