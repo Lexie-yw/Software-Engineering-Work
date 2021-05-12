@@ -2,7 +2,7 @@
 
 * [**Reflect on the working practices**](#reflect-on-the-working-practices)
 * [**Reflective discussion of the success of the project**](#reflective-discussion-of-the-success-of-the-project)
-* [**How coronavirus has affected your project**](#how-coronavirus-has-affected-your-project)
+* [**How coronavirus has affected our project**](#how-coronavirus-has-affected-our-project)
 * [**Discussion of Social and Ethical implications**](#discussion-of-social-and-ethical-implications)
 * [**Discussion of future work**](#discussion-of-future-work)
 
@@ -58,7 +58,7 @@ We designed this project to help people achieve the goal of habit building, and 
 
 
 
-## How coronavirus has affected your project  
+## How coronavirus has affected our project  
 
 &nbsp;
 
