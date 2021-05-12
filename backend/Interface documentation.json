@@ -1,0 +1,516 @@
+{
+	"id": "fcb7f016-08e2-44d6-824e-82dc419d3e21",
+	"name": "Interface documentation",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"4cd58710-84a1-407c-865e-a67f7dd6b3e2",
+		"be7dda6f-6f16-4e5c-a548-a73409b5ca7e",
+		"3c6b043f-5aa2-4776-9722-9e261b0425d7",
+		"2d84dbaa-917c-4c4d-a162-fc01f208cfe1",
+		"25fb9459-c6a6-4636-b227-0fc64e412256",
+		"ff897623-5d4c-4c58-91d9-c85c103aa00f",
+		"5ce28a30-4b14-4123-9692-c243bb6d458d",
+		"f059347a-f261-475b-8a57-4e653cb3d4ba",
+		"5870f1fa-7a13-4cc6-a557-539ef244f2de"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "25fb9459-c6a6-4636-b227-0fc64e412256",
+			"name": "addgoal",
+			"url": "http://localhost:8081/goal/add",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"userId\":\"2\",\"goalName\":\"test\",\"description\":\"test\",\"startTime\":\"2020-04-27\",\"endTime\":\"2020-04-27\"}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2d84dbaa-917c-4c4d-a162-fc01f208cfe1",
+			"name": "updatepwd",
+			"url": "http://localhost:8081/user/update/pwd",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"responses": [
+				{
+					"id": "32cb05f0-dff9-472d-a10d-bc6baf419dd5",
+					"name": "updatepwd",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n    \"code\": 200,\n    \"msg\": \"success\",\n    \"data\": null\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": "{\n\t\"userId\":\"2\",\"password\":\"1234\"\n}",
+						"dataMode": "raw",
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "http://localhost:8081/user/update/pwd"
+					},
+					"headers": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 27 Apr 2021 09:50:24 GMT"
+						}
+					],
+					"cookies": null,
+					"request": "2d84dbaa-917c-4c4d-a162-fc01f208cfe1",
+					"collection": "fcb7f016-08e2-44d6-824e-82dc419d3e21"
+				}
+			],
+			"rawModeData": "{\n\t\"userId\":\"2\",\"password\":\"1234\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3c6b043f-5aa2-4776-9722-9e261b0425d7",
+			"name": "deluser",
+			"url": "http://localhost:8081/user/del/1",
+			"description": "",
+			"data": [],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "4cd58710-84a1-407c-865e-a67f7dd6b3e2",
+			"name": "userlogin",
+			"url": "http://localhost:8081/user/login",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"responses": [
+				{
+					"id": "80360a1b-d90b-42e0-bb33-2e40e29d25c3",
+					"name": "userlogin",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n    \"code\": 200,\n    \"msg\": \"success\",\n    \"data\": {\n        \"userId\": \"6087d963120dda53a75f6149\",\n        \"userName\": \"test4\",\n        \"email\": \"123@164.com\",\n        \"password\": \"123\"\n    }\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": "{\n\t\"email\":\"123@164.com\",\"password\":\"123\"\n}",
+						"dataMode": "raw",
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "http://localhost:8081/user/login"
+					},
+					"headers": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 27 Apr 2021 09:30:18 GMT"
+						}
+					],
+					"cookies": null,
+					"request": "4cd58710-84a1-407c-865e-a67f7dd6b3e2",
+					"collection": "fcb7f016-08e2-44d6-824e-82dc419d3e21"
+				}
+			],
+			"rawModeData": "{\n\t\"email\":\"123@164.com\",\"password\":\"123\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5870f1fa-7a13-4cc6-a557-539ef244f2de",
+			"name": "getPic",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"responses": [
+				{
+					"id": "3b8ab811-19ad-4d97-9afb-15254d2ae9e5",
+					"name": "getPic",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n    \"code\": 200,\n    \"msg\": \"success\",\n    \"data\": {\n        \"id\": \"60992465ad200000e1003ccc\",\n        \"img_index\": \"10.0\",\n        \"img_url\": \"https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/little-planet/src/assets/Countries/America_north/Canada/pic.png?raw=true\",\n        \"img_achieved\": \"0.0\"\n    }\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": null,
+						"dataMode": null,
+						"headerData": [],
+						"method": "GET",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "http://localhost:8081/reward/get/pic"
+					},
+					"headers": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 May 2021 12:28:40 GMT"
+						}
+					],
+					"cookies": null,
+					"request": "5870f1fa-7a13-4cc6-a557-539ef244f2de",
+					"collection": "fcb7f016-08e2-44d6-824e-82dc419d3e21"
+				}
+			],
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "5ce28a30-4b14-4123-9692-c243bb6d458d",
+			"name": "updategoal",
+			"url": "http://localhost:8081/goal/update",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"responses": [
+				{
+					"id": "21cec266-b0a1-4bee-92fd-f2af2b77d5c7",
+					"name": "updategoal",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n    \"code\": 200,\n    \"msg\": \"success\",\n    \"data\": null\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": "{\"goalId\":\"6087e5070b09b4068fef4d37\",\"userId\":\"2\",\"goalName\":\"test4\",\"description\":\"test322\",\"startTime\":\"2020-04-27\",\"endTime\":\"2020-04-27\",\"status\":\"1\"}",
+						"dataMode": "raw",
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "http://localhost:8081/goal/update"
+					},
+					"headers": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 27 Apr 2021 12:28:09 GMT"
+						}
+					],
+					"cookies": null,
+					"request": "5ce28a30-4b14-4123-9692-c243bb6d458d",
+					"collection": "fcb7f016-08e2-44d6-824e-82dc419d3e21"
+				}
+			],
+			"rawModeData": "{\"goalId\":\"6087e5070b09b4068fef4d37\",\"userId\":\"2\",\"goalName\":\"test4\",\"description\":\"test322\",\"startTime\":\"2020-04-27\",\"endTime\":\"2020-04-27\",\"status\":\"1\"}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "be7dda6f-6f16-4e5c-a548-a73409b5ca7e",
+			"name": "userregister",
+			"url": "http://localhost:8081/user/register",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"responses": [
+				{
+					"id": "a34adda8-783e-4152-bcae-57c8bd8aa02c",
+					"name": "注册",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n    \"code\": 200,\n    \"msg\": \"success\",\n    \"data\": null\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": "{\n\t\"userName\":\"test4\",\"email\":\"123@164.com\",\"password\":\"123\"\n}",
+						"dataMode": "raw",
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "http://localhost:8081/user/register"
+					},
+					"headers": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 27 Apr 2021 09:29:07 GMT"
+						}
+					],
+					"cookies": null,
+					"request": "be7dda6f-6f16-4e5c-a548-a73409b5ca7e",
+					"collection": "fcb7f016-08e2-44d6-824e-82dc419d3e21"
+				}
+			],
+			"rawModeData": "{\n\t\"userId\":\"2\",\"userName\":\"test2\",\"email\":\"123@163.com\",\"password\":\"123\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f059347a-f261-475b-8a57-4e653cb3d4ba",
+			"name": "delgoal",
+			"url": "http://localhost:8081/goal/del/6087e5070b09b4068fef4d37",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"responses": [
+				{
+					"id": "c6329ea5-9328-4e07-a5d9-bec44f4788e4",
+					"name": "delgoal标",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n    \"code\": 200,\n    \"msg\": \"success\",\n    \"data\": null\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": null,
+						"dataMode": null,
+						"headerData": [],
+						"method": "GET",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "http://localhost:8081/goal/del/6087e5070b09b4068fef4d37"
+					},
+					"headers": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 27 Apr 2021 12:29:33 GMT"
+						}
+					],
+					"cookies": null,
+					"request": "f059347a-f261-475b-8a57-4e653cb3d4ba",
+					"collection": "fcb7f016-08e2-44d6-824e-82dc419d3e21"
+				}
+			],
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ff897623-5d4c-4c58-91d9-c85c103aa00f",
+			"name": "getgoal",
+			"url": "http://localhost:8081/goal/get/2",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
