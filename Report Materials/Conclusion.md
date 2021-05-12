@@ -8,7 +8,9 @@
 
 &nbsp;
 
+
 ## Reflect on the working practices   
+
 
 &nbsp;
 
@@ -59,7 +61,9 @@ We designed this project to help people achieve the goal of habit building, and 
 ## How coronavirus has affected your project  
 
 &nbsp;
-Due to the influence of COVID-19, our team members are in different countries and there is time difference, which has a great impact on our communication and cooperation. We can't exchange ideas face to face, study and discuss knowledge together. We have no access to the school library for reference. Fortunately, our teaching fellows were conscientious and gave us a lot of useful advice, which was of great significance to the success of our program.
+
+
+Due to the influence of COVID-19, our team members are in different countries and there is time difference, which has a great impact on our communication and cooperation. We can't exchange ideas face to face, study and discuss knowledge together. We have no access to the school library for reference. Fortunately, our teaching fellows were conscientious and gave us a lot of useful advice, which was of great significance to the success of our project.
 
 We use online media properly to communicate and minimize the impact of COVID-19 on our work. Due to COVID-19, we were unable to recommend our app to as many users as possible to get more user feedback. At the same time, we think that during the epidemic, people have less recreational activities, which may make us more addicted to our phones and unable to achieve our goals. So we think that our design of Little Planet can help people to plan their time properly and avoid wasting time during an epidemic. We had a tough time together, and we got it done.
 
@@ -69,6 +73,23 @@ We use online media properly to communicate and minimize the impact of COVID-19 
 
 &nbsp;
 
+The information age has brought unspeakable convenience and benefits, but the network is a virtual world, which has brought us some negative effects. On the network platform, some teenagers are addicted to online video games, which produce more and more strong psychological dependence and temptation to operate repeatedly. When they can't play games, they will appear emotional irritability, depression and other symptoms. It causes damage to eyesight and nerves, reduces the flexibility of the brain and affects academic performance.
+
+Network is the product of human technological progress. While improving the quality of people's participation in all kinds of activities, it may cause damage to some network users. People must correctly understand the two sides of the network, avoid its shortcomings, use its advantages, give play to the convenience of the network to people.
+
+Little Planet is designed to help people figure out their near-term goals and plan their time. By setting goals to drive users to improve their concentration and action, they reduce the amount of time spent playing. In terms of user data privacy, we capture only the necessary functional data and store it securely.
+
+We worry about whether our habit-forming ideas will create stress for users. Users may become anxious if they are unable to achieve the goals they set. So far, we haven't seen any of this, but we'll be looking at it in the future.
+
+
+&nbsp;
+
+
 ## Discussion of future work
 
 &nbsp;
+
+
+In the future, we look forward to building a community of users to provide a space for users to communicate with each other. Users can exchange their short-term and long-term tasks, and people with the same plans can learn and progress together. We wanted to build a leaderboard of user goals and engagement duration. And we will improve our application features and enrich our reward system to give users a better experience.
+
+
