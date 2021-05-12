@@ -87,9 +87,15 @@ So we chose a three-tier architecture.
 &nbsp;
 
 
+
 The stack consists of three components: Angular, SpringBoot and MongoDB. Spring Boot and Angular form a powerful stack to build modern production grade web applications quickly and test it effectively.
 
-In this project, we used the front and back end separation method. The front end uses Angular to render and display the page. The more popular Spring Boot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.    
+
+* SpringBoot exports REST APIs using Spring Web MVC & interacts with MongoDB Database using Spring Data MongoDB
+* Angular Client sends HTTP Requests and retrieve HTTP Responses, and shows data on the components.  
+
+
+In this project, we used the front and back end separation method. The front end uses Angular to render and display the page. The more popular SpringBoot is used to implement back end services in the background. The front end obtains and uploads data through Ajax request, and the back end returns the result to show the corresponding rendering effect.    
 
 
 &nbsp;
@@ -103,7 +109,7 @@ In this project, we used the front and back end separation method. The front end
 
 
 
-* The Springboot framework is an open source application framework on the Java platform that provides a container with inversion of control features.    
+* The SpringBoot framework is an open source application framework on the Java platform that provides a container with inversion of control features.    
 
 
 
