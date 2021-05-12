@@ -1,4 +1,4 @@
-## Contents
+# Conclusion
 
 * [**Reflect on the working practices**](#reflect-on-the-working-practices)
 * [**Reflective discussion of the success of the project**](#reflective-discussion-of-the-success-of-the-project)
