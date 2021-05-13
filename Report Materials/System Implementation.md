@@ -3,11 +3,11 @@
 &nbsp;
 
 * [**Stack architecture and system design**](#stack-architecture-and-system-design)
-* [**Front End**](#front-end)
-* [**Middle Tier**](#middle-tier)
-* [**Back End**](#back-end)
+* [**Front end**](#front-end)
+* [**Middle tier**](#middle-tier)
+* [**Back end**](#back-end)
 * [**Additional elements and components**](#additional-elements-and-components)
-* [**Continuous Integration**](#continuous-integration)
+* [**Continuous integration**](#continuous-integration)
 
 
 
@@ -118,11 +118,11 @@ In this project, we used the front and back end separation method. The front end
 
 &nbsp;
 
-## **Front End**
+## **Front end**
 
 
 
-## **Middle Tier**
+## **Middle tier**
 
 &nbsp;
 &nbsp;
@@ -223,7 +223,7 @@ Parsing on the server side is an important part of what developers want. If pars
 
 
 
-## **Back End**  
+## **Back end**  
 
 MongoDB is a database based on distributed file storage, which aims to provide scalable high-performance data storage solution for Web applications.  
 
@@ -438,7 +438,7 @@ The reasons for using Postman are as follows:
 &nbsp;
 
 
-## Continuous Integration
+## Continuous integration
 
 
 &nbsp;
