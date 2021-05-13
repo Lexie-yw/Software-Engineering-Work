@@ -235,18 +235,145 @@ It is characterized by high performance, easy to deploy, easy to use, and easy t
 
 &nbsp;
 
-We save the reward pictures into the database, and the user collects the pictures by completing the goal. The corresponding relationship is shown in the figure.
+The home directory is divided into three packages: one for users, one for goals, and one for reward images.
+We save the reward pictures into the database, and the user collects the pictures by completing the goal. The corresponding relationship is shown in the figure.  
 
-
-&nbsp;
-
-![image](https://user-images.githubusercontent.com/73413798/117832356-000c7b80-b2a8-11eb-8583-ca6e528b114a.png)  
 
 
 
 &nbsp;
 
-The dao package implements database operations. They all inherit from MongoRepository, which provides support for various database operations. We can manipulate the database as if it were an object call. The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. We also created the underlying return information under the resp package. The response class is returned as a uniformly formatted data format, with code identifying the return code. msg is the message prompt and data is the data returned. Finally, the controller provides the interface path and the mapping implementation.
+```
+User dbUser=userService.getUserByEamil(user.getEmail());
+        if(dbUser!=null){
+            response.hasUser();
+            return response;
+        }
+```
+
+```
+  User dbUser=userService.getUserByUserId(user.getUserId());
+        if(dbUser==null){
+            response.noUser();
+            return response;
+        }
+ ```       
+&nbsp;
+
+When a user fills in an email address or a user name and password, the first step is to determine whether the user has filled in correctly through a number of parameter checks. When the user has filled in all correctly, through the user name interface, through the mailbox to judge whether the mailbox has existed, if it has existed, then it proves that the user has registered, then we give him back a prompt: "the user has existed". If not, we'll add a new user.
+
+
+&nbsp;
+
+ ```
+  public List<Goal> getAllGoalByUserId(String userId) {
+        Goal goal=new Goal();
+        goal.setUserId(userId);
+        ExampleMatcher matcher=ExampleMatcher
+                .matching()
+                .withMatcher("userId",ExampleMatcher.GenericPropertyMatchers.contains());
+        Example<Goal> example=Example.of(goal,matcher);
+        return goalRepository.findAll(example);
+    }
+ ```
+ 
+&nbsp;
+
+The way to add a goal is through the username. Each goal is bound to a user, so the goal is bound to a user ID. Through the URL, we can find the goal set by the user and the goal update operation, and some simple add, delete and change functions.
+
+
+&nbsp;
+
+
+
+ ```
+@Service
+public class RewardServiceImpl implements RewardService {
+    @Autowired
+    private RewardRepository rewardRepository;
+    @Override
+    public Reward getReward() {
+        List<Reward>  list=rewardRepository.findAll();
+        int size=list.size();
+        Random random=new Random();
+        return list.get(random.nextInt(size));
+    }
+}
+ ```
+ 
+&nbsp;
+
+
+The whole process of getting the reward picture is as follows: check how many groups of pictures there are in the database, such as 10 groups of pictures, and create a random number from 0 to 10, such as 5 at random, and send the picture with ID of 5 to the URL of the front-end database, and request the mailbox to get the picture.
+
+
+&nbsp;
+
+
+
+```
+import com.work.entity.Goal;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GoalRepository extends MongoRepository<Goal,String> {
+}
+```
+
+```
+import com.work.entity.Reward;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RewardRepository extends MongoRepository<Reward,String> {
+
+}
+```
+
+```
+import com.work.entity.User;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends MongoRepository<User,String> {
+}
+```
+
+&nbsp;
+
+The dao package implements database operations. They all inherit from MongoRepository, which provides support for various database operations. We can manipulate the database as if it were an object call. The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. 
+
+&nbsp;
+
+```
+public Response success(){
+        this.code=200;
+        this.msg="success";
+        return this;
+    }
+
+    public Response paramEmpty(){
+        this.code=10001;
+        this.msg="param is fail";
+        return this;
+    }
+    public Response noUser(){
+        this.code=10002;
+        this.msg="user not exists";
+        return this;
+    }
+    public Response hasUser(){
+        this.code=10003;
+        this.msg="user is exists";
+        return this;
+    }
+```
+
+
+We also created the underlying return information under the resp package. The response class is returned as a uniformly formatted data format, with code identifying the return code. msg is the message prompt and data is the data returned. Finally, the controller provides the interface path and the mapping implementation.
 
 &nbsp;
 
