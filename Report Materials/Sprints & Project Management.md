@@ -114,4 +114,9 @@ Because of COVID-19, we couldn't meet and communicate offline, so most of our wo
 
 ## Team use of Git
 
-&nbsp;
+Apart from teams, Git can be counted as our second communication tool. We created different branches to do tests separately and merged the successful working pieces into the main branch. As a version control and online collaboration tool, Git provided so much ease for our collaboration.
+
+We followed a routine to always git fetch before starting working to see if there are new changes added by coworkers, and git push our own contribution with a commit message stating what scripts had been updated. When there was a real conflict, we would discuss through teams and then make the decision.
+
+While we were making progress in our project, we were also getting more and more familiar with git and managed to store everything in an organized structure and streamlined our workflow. 
+
