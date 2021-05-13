@@ -304,7 +304,7 @@ public class RewardServiceImpl implements RewardService {
 &nbsp;
 
 
-The whole process of getting the reward picture is as follows: check how many groups of pictures there are in the database, such as 10 groups of pictures, and create a random number from 0 to 10, such as 5 at random, and send the picture with ID of 5 to the URL of the front-end database, and request the mailbox to get the picture.
+The whole process of getting the reward picture is as follows: check how many groups of pictures there are in the database, such as 10 groups of pictures, create a random number from 0 to 10, such as 5 randomly, call the picture with ID of 5 to the URL of the front-end database, and request the user mailbox to get the picture.
 
 
 &nbsp;
