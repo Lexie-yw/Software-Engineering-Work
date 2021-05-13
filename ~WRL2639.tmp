@@ -18,11 +18,9 @@ This section comprises of the following segments:
 * System demo
 
 ## [Background and Motivation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20and%20Motivation.md)
-* Academic research review.
-* Current industry review.
-* Definition of the problem 
-* What we improved
-
+Background literature. Academic research review.
+State of the art survey. Current industry review.
+Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a worthwhile and important problem and clearly articulate the scope and challenge of the problem.
 ## [System Implementation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/System%20Implementation.md)
 * Stack architecture and system design 
 * Front End 
