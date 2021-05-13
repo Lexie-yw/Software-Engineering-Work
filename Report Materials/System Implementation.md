@@ -167,21 +167,36 @@ The background adopts MVC hierarchical management method. Under the com.work pac
  
 The Server layer holds the service interface, and the specific implementation of the service is in the server.impl. We also created the underlying return information under the resp package.  
 
-The RESTful architectural style dictates that meta-operations on data, namely CRUD(create, read, update, and delete) operations correspond to HTTP methods, respectively: GET is used to obtain resources, POST is used to create resources (which can also be used to update resources), PUT is used to update resources, and DELETE is used to DELETE resources, thus unifying the interface of data operation. All the work of adding, deleting and changing data can be done only through the HTTP method.
+The RESTful architectural style dictates that meta-operations on data, namely CRUD(create, read, update, and delete) operations correspond to HTTP methods, respectively:  
+
+* GET is used to obtain resources  
+
+* POST is used to create resources (which can also be used to update resources)  
+
+* PUT is used to update resources  
+
+* DELETE is used to DELETE resources, thus unifying the interface of data operation.  
+
+All the work of adding, deleting and changing data can be done only through the HTTP method.  
+
+The advantages of REST:
+
+* Caching can be used more efficiently to improve response time.
+
+* The statelessness of the communication itself allows different servers to handle different requests in a series of requests and improves the scalability of the server.
+
+* The browser can act as a client, simplifying software requirements.
+
+* REST has fewer software dependencies than other mechanisms that stack on top of the HTTP protocol.
+
+* No additional resource discovery mechanism is required.
+
+* Better long-term compatibility in the evolution of software technology.
+
 
 &nbsp;
 
-That is:
 
-Get (SELECT) : fetches resources (one or more) from the server.  
-
-POST (CREATE) : Create a new resource on the server.  
-
-PUT (UPDATE) : Updates the resource on the server (the client provides the complete resource data).  
-
-PATCH (UPDATE) : Update the resource on the server (the client provides the resource data that needs to be modified).  
-
-Delete (Delete) : Deletes a resource from the server.  
 
 
 The Response class is returned as a uniformly formatted data format, with code identifying the return code. msg is the message prompt and data is the data returned. Finally, the Controller provides the interface path and the mapping implementation. It is in a RESTful style, and the return type is json, which is convenient for passing down and receiving.  
