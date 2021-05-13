@@ -52,7 +52,7 @@ At the paper prototyping stage, considering the situation caused by the pandemic
 </p>
 
 ### Moodboard
-After we had a prototype in hand, we immediately asked our friends and families to try it out and asked their preferences towards the UI style, then we made the following moodboard!
+After we had a prototype in hand, we immediately asked our friends and families to try it out. According to the user feedback (refer to user questionnaires in the Understanding Users section), we made the following moodboard!
 <p align = "center">
 <img src="/Report%20Materials/UX%20Design/UX%20images/Moodboard.png" alt="Moodboard" width="600"/>
 </p>
@@ -74,9 +74,12 @@ Right after we created our prototype, we asked our friends and families again to
 <img src="/Report%20Materials/user%20feedback/Q8.png" alt="Q8" width="600"/>
 </p>
 Through this second round of user research, we confirmed three things:
-* Target Users: our initial assumption towards target users are accurate. Nearly 90% participants have experience of failing to sticking to plans and are in need of progress-tracking/ habit-forming tools. All participants expressed willingness to use Little Planet after we release the complete product.
-* Nice Features & User Pain Points: existing progress-tracking/habit-forming applications are generally good at progress visualization but problems like hard to use, lack of gamification or support for cross-platform accessibility are main pain points users have while using the products. In order to design a product that users enjoy to use, we shoud avoid pain points users mentioned and take features users valued into consideration, like progress visualization.
-* Suggestions & Takeaways: Little Planet should remain a simple UI style with practical functions, keep the interface free from advertisements. There is still space to increase user enjoyment through adding more fun elements, like upgrading CCG to TCG and add more collections of cards with different themes. 
+  * Target Users: our initial assumption towards target users are accurate. Nearly 90% participants have experience of failing to sticking to plans and are in     need of progress-tracking/ habit-forming tools. All participants expressed willingness to use Little Planet after we release the complete product.
+  * Nice Features & User Pain Points: existing progress-tracking/habit-forming applications are generally good at progress visualization but problems like hard     to use, lack of gamification or support for cross-platform accessibility are main pain points users have while using the products. In order to design a         product that users enjoy to use, we shoud avoid pain points users mentioned and take features users valued into consideration, like progress visualization.
+  * Suggestions & Takeaways: as it can be seen from the evluation summary, there is still space for Little Planets to make improvements. 2 participants gave    us 4 on user experience of Little Planet(Q4), and that was because the prototype UI looked too simple and they were hoping to see more fun elements on the interface. Considering all the problems users pointed out, our next steps will be: 
+    * add more colorful and fun elements to UI, but keep the interface free from advertisements.
+    * increase user enjoyment through adding more fun elements, like upgrading CCG to TCG and add more collections of cards with different themes. 
+ 
 
 
 
