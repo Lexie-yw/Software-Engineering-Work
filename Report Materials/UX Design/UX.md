@@ -3,9 +3,9 @@
 ## Table of Contents
 * [**Design Process**](#design-process)
 * [**Ideation**](#ideation)
-* [**Early Prototyping**](#early-prototyping)
+* [**UI**](#UI)
   * [**User Persona Sketch**](#user-persona-sketch)
-  * [**Initial Prototyping**](#initial-prototyping)
+  * [**Early Prototyping**](#early-prototyping)
   * [**Moodboard**](#moodboard)
   * [**Wireframes and Interaction Flow Diagrams**](#wireframes-and-interaction-flow-diagrams)
 * [**Users and Stakeholders**](#users-and-stakeholders)
@@ -28,7 +28,7 @@ As you can see, items on the left side are potential problems that exist in our 
 
 To implement a fun to use habit-forming application, we decided to add a Card Collecting Game (CCG) mechanism to the application to keep users engaged and motivated. Users who manage to track their goals and eventually achieve the goals will be rewarded with cards. The more goals they achieve, the more cards they will obtain and more likely to get all cards of a particular theme. The first theme of cards we implemented is city views, which caters to our tagline: form your habits to build your little planet. A possible extension of the app would be turning the CCG game mechanism to a Trading and Collecting Game (TCG) game mechanism, allowing users to exchange cards they obtained.
 
-## Early Prototyping
+## UI
 We named our habit-forming application Little Planet and set a tagline for it: form your habits to build your little planet.  
 ### User Persona Sketch
 Based on the conclusion from the ideation stage, we identified that our potential users would be people who are interested in progress tracking and habit forming, and the broader stakeholders would be relevant developers and product managers of the product. Below is a user persona sketch (Figure 2) we made to guide our initial prototyping:
@@ -38,7 +38,7 @@ Based on the conclusion from the ideation stage, we identified that our potentia
 No matter what age they are; where they are from; what occupation they have, as long as they are interested in personal development and want to achieve goals or form habits, they can use Little Planet to motivate themselves to make progress.
 
 
-### Initial Prototyping
+### Early Prototyping
 With the user persona sketch as a guidance, we decided that Little Planet should implement the following features:
   * Progress Tracking / Progress Visualization
   * CCG
