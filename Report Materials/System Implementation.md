@@ -10,7 +10,6 @@
 * [**Continuous integration**](#continuous-integration)
 
 
-
 &nbsp;
 
 &nbsp;
@@ -250,8 +249,9 @@ Here is our ER diagram for database building, We use 3 table to store our data, 
 We use a NoSQL visualization tool "NoSQL Manager for MongoDB" to manage our data. reward table as shown below:
 <p align="center">
 <img src="https://github.com/Blind4life/trash/blob/main/%7DXZ14RHZ_L2L%25GY8B~49KHN.png?raw=true" width = 85%>
-</p>
-Or for future expansion, we can also store these data at cloud by import [mangodb script](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/database/planetdb.txt).
+</p>  
+
+   Or for future expansion, we can also store these data at cloud by import [script](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/database/planetdb.txt).  
 A manual created goal table for test look like this:
 <p align="center">
 <img src="https://github.com/Blind4life/trash/blob/main/%5DB(HKH1R)F~MOC32AG7%7DV%7B6.png?raw=true" width = 85%>
