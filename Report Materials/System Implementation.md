@@ -240,13 +240,23 @@ It is characterized by high performance, easy to deploy, easy to use, and easy t
 * The file storage format is BSON (an extension of JSON).
 * Accessible via the network.  
 
-&nbsp;
+Here is our ER diagram for database building, We use 3 table to store our data, Including User_data table to store our user's account(u_id) and password, goal table to store all goals created by our users, whether it's achieved or not(if achieved, attribute is_achieved will be updated to 1, if user give up their goal, we won't delete this document but update attribute is_deleted from 0 to 1), and an already created table reward to store all our reward pictures' url and owner of a certain picture.    
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73413798/117675038-cae82680-b1de-11eb-8ddd-7c0001058be6.png" width = 50%>
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73413798/117674564-590fdd00-b1de-11eb-8f6d-b2a91cd5103f.png" width = 50%>
+</p>
+We use a NoSQL visualization tool "NoSQL Manager for MongoDB" to manage our data. reward table as shown below:
+<p align="center">
+<img src="https://github.com/Blind4life/trash/blob/main/%7DXZ14RHZ_L2L%25GY8B~49KHN.png?raw=true" width = 85%>
+</p>
+Or for future expansion, we can also store these data at cloud by import [mangodb script](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/database/planetdb.txt).
+A manual created goal table for test look like this:
+<p align="center">
+<img src="https://github.com/Blind4life/trash/blob/main/%5DB(HKH1R)F~MOC32AG7%7DV%7B6.png?raw=true" width = 85%>
+</p>
 
-![image](https://user-images.githubusercontent.com/73413798/117675038-cae82680-b1de-11eb-8ddd-7c0001058be6.png)
-
-&nbsp;
-
-![image](https://user-images.githubusercontent.com/73413798/117674564-590fdd00-b1de-11eb-8f6d-b2a91cd5103f.png)
 
 &nbsp;
 
