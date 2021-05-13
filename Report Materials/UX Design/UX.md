@@ -3,7 +3,7 @@
 ## Table of Contents
 * [**Design Process**](#design-process)
 * [**Ideation**](#ideation)
-* [**UI**](#UI)
+* [**UI Development**](#ui-development)
   * [**User Persona Sketch**](#user-persona-sketch)
   * [**Early Prototyping**](#early-prototyping)
   * [**Moodboard**](#moodboard)
@@ -28,7 +28,7 @@ As you can see, items on the left side are potential problems that exist in our 
 
 To implement a fun to use habit-forming application, we decided to add a Card Collecting Game (CCG) mechanism to the application to keep users engaged and motivated. Users who manage to track their goals and eventually achieve the goals will be rewarded with cards. The more goals they achieve, the more cards they will obtain and more likely to get all cards of a particular theme. The first theme of cards we implemented is city views, which caters to our tagline: form your habits to build your little planet. A possible extension of the app would be turning the CCG game mechanism to a Trading and Collecting Game (TCG) game mechanism, allowing users to exchange cards they obtained.
 
-## UI
+## UI Development
 We named our habit-forming application Little Planet and set a tagline for it: form your habits to build your little planet.  
 ### User Persona Sketch
 Based on the conclusion from the ideation stage, we identified that our potential users would be people who are interested in progress tracking and habit forming, and the broader stakeholders would be relevant developers and product managers of the product. Below is a user persona sketch (Figure 2) we made to guide our initial prototyping:
@@ -98,5 +98,19 @@ Through this second round of user research, we confirmed three things:
     * increasing user enjoyment through adding more fun elements, like upgrading CCG to TCG and add more collections of cards with different themes. 
  
 
+## UX Approach
+### Design Methods
+Little Planet is an application designed to help human beings to better track their progress to form habits. Based on this aspiration, our group decided to use user-centered design methodology to support Little Planet's UI&UX development. User-centered design is a term first brought by Rob Kling and later popularized by Don Norman through his book “The Design of Everyday Things”, which illustrates the importance of design which can bridging customers and products.
 
+Through our UX design process, we had users involved at every stage. We started with brainstorming while researching online to collect relevant user psychology research, later on, we sketched the user persona, then moved on to developing prototype based on the user persona. After the initial prototyping done, we sent it to users to try out and asked them to fill out questionnaires to provide feedback, based on the test result(feedback), we made the moodboard and revised the original low fidelity prototype.
+
+Throughout the whole UX process, we follwed the steps below at every stage:
+1. Conducting user research before any action
+2. Designing with user inputs
+3. Testing and collecting user feedback
+4. Revising product design
+
+Reference materials:
+Norman, Donald (1988). "Preface to the 2002 Edition". The Design of Everyday Things. New York: Basic Books. ISBN 978-0-465-06710-7. 
+Kling, Rob (1977). "The Organizational Context of User-Centered Software Designs". MIS Quarterly. 1 (4): 41–52. doi:10.2307/249021. ISSN 0276-7783. JSTOR 249021.
 
