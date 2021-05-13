@@ -59,13 +59,18 @@ After we had a prototype in hand, we immediately asked our friends and families 
 
 ### Wireframes and Interaction Flow Diagrams
 This section introduces the wireframes of our prototpe and the interaction flow diagrams of our products.
-* **Little Planet Wireframe**
+* **Little Planet's Wireframes**
 <p align = "center">
 <img src="/Report%20Materials/UX%20Design/UX%20images/Wireframe1.png" alt="wireframe1" width="600"/>
 <img src="/Report%20Materials/UX%20Design/UX%20images/wireframe2.png" alt="wireframe2" width="600"/>
 </p> 
 
 * **Little Planet Interaction Flow Diagram**
+<p align = "center">
+<img src="/Report%20Materials/UX%20Design/UX%20images/interaction-diagram.png" alt="interaction flow diagram" width="600"/>
+</p> 
+
+Together with moodboard, Little Planet's wireframes and its interaction flow diagram serve as a reference guide for our product implementation, especially the front-end development. 
 
 ## Users and Stakeholders
 We always prioritized users throughout our UX design process. There are two rounds of user research we made in total. 
