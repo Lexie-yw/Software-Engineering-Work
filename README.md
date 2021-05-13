@@ -1,4 +1,8 @@
 ﻿# Little Planet
+<p align = "center">
+<img src="/Report%20Materials/UX%20Design/UX%20images/logo.gif" alt="logo" width="600"/>
+</p>
+
 Little Planet is a habit forming app, helping you track your progress and visualize your achievement through a collecting card game (CCG). 
 Time to develop your perseverance and build your own planet!
 ## Team Member (Group19)
