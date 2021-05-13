@@ -289,7 +289,7 @@ MockHttpServletResponse:
 
 ### **Future improvement points
 
-   From the feedback given by our users, we want to do some future improvement about our app:
+    From the feedback given by our users, we want to do some future improvement about our app:
    * Beautify the interface of the program
    * Add more types of bonus cards, not just city views, and add relevant descriptions to the cards 
    * Add card exchange system between users 
