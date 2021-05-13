@@ -90,6 +90,8 @@ We worry about whether our habit-forming ideas will create stress for users. Use
 &nbsp;
 
 
-In the future, we look forward to building a community of users to provide a space for users to communicate with each other. Users can exchange their short-term and long-term tasks, and people with the same plans can learn and progress together. We wanted to build a leaderboard of user goals and engagement duration. And we will improve our application features and enrich our reward system to give users a better experience.
+In the future, we look forward to building a community of users to provide a space for users to communicate with each other. Users can exchange their short-term and long-term tasks, and people with the same plans can learn and progress together. We wanted to build a leaderboard of user goals and engagement duration. And we will improve our application features and enrich our reward system to give users a better experience.  
+
+In the future, we hope that more users will use our app and give us more feedback. I hope we can make progress together!
 
 
