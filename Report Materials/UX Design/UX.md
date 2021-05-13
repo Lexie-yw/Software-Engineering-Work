@@ -62,7 +62,21 @@ We always prioritized users throughout our UX design process. There are two roun
 ### Identification of Users and Stakeholders
 The first round happened during our ideation stage, where we shared our project ideas with our friends and families, and concluded that our potential users would be people with needs for progress tracking and habit forming and confirmed that relevant product managers and developers would be stakeholders. According to that conclusion and discussion during ideation stage, we managed to draw user persona sketch at the very begining of our UI design process. Please scroll up to the user persona sketch section to see more details!
 ### Understanding Users
-Right after we created our prototype, we asked our friends and families again to try out the application. This time, we made the following questionnaires to collect user feedbacks. (Details to be updated...)
-##
+Right after we created our prototype, we asked our friends and families again to try out the application. This time, we made the following questionnaires to collect user feedbacks. 
+<p align = "center">
+<img src="/Report%20Materials/user%20feedback/Q1.png" alt="Q1" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q2.png" alt="Q2" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q3.png" alt="Q3" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q4.png" alt="Q4" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q5.png" alt="Q5" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q6.png" alt="Q6" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q7.png" alt="Q7" width="600"/>
+<img src="/Report%20Materials/user%20feedback/Q8.png" alt="Q8" width="600"/>
+</p>
+Through this second round of user research, we confirmed three things:
+* Target Users: our initial assumption towards target users are accurate. Nearly 90% participants have experience of failing to sticking to plans and are in need of progress-tracking/ habit-forming tools. All participants expressed willingness to use Little Planet after we release the complete product.
+* Nice Features & User Pain Points: existing progress-tracking/habit-forming applications are generally good at progress visualization but problems like hard to use, lack of gamification or support for cross-platform accessibility are main pain points users have while using the products. In order to design a product that users enjoy to use, we shoud avoid pain points users mentioned and take features users valued into consideration, like progress visualization.
+* Suggestions & Takeaways: Little Planet should remain a simple UI style with practical functions, keep the interface free from advertisements. There is still space to increase user enjoyment through adding more fun elements, like upgrading CCG to TCG and add more collections of cards with different themes. 
+
 
 
