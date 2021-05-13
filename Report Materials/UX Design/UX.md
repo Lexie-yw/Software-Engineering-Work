@@ -7,13 +7,13 @@
   * [**User Persona Sketch**](#user-persona-sketch)
   * [**Initial Prototyping**](#initial-prototyping)
   * [**Moodboard**](#moodboard)
+  * [**Wireframes and Interaction Flow Diagrams**](#wireframes-and-interaction-flow-diagrams)
 * [**Users and Stakeholders**](#users-and-stakeholders)
   * [**Identification of Users and Stakeholders**](#identification-of-users-and-stakeholders)
   * [**Understanding Users**](#understanding-users)
 * [**UX Approach**](#ux-approach)
   * [**Design Methods**](#design-methods)
-* [**Final Revisions**](#final-revisions)
-  * [**Wireframes and Interaction Flow Diagrams**](#wireframes-and-interaction-flow-diagrams)
+ 
 
 
 ## Design Process
@@ -45,7 +45,7 @@ With the user persona sketch as a guidance, we decided that Little Planet should
   * Simple in Style
   * Streamlined Workflow
 
-At the paper prototyping stage, considering the situation caused by the pandemic, we used teams and Figma these online collaboration tools instead. We first drafted our paper prototype with Powerpoint through teams and then implemented it in Figma(a prototype design tool). Below is a short video about the low fidelity prototype we created.
+At the paper prototyping stage, considering the situation caused by the pandemic, we used teams and Figma these online collaboration tools instead. We first drafted our paper prototype with Powerpoint through teams and then implemented it in Figma(a prototype design tool). Below is a short video about the prototype we created.
 
 <p align = "center">
 <img src="/Report%20Materials/UX%20Design/UX%20images/little-planet-prototype.gif" alt="User Persona Sketch" width="600"/>
@@ -56,6 +56,16 @@ After we had a prototype in hand, we immediately asked our friends and families 
 <p align = "center">
 <img src="/Report%20Materials/UX%20Design/UX%20images/Moodboard.png" alt="Moodboard" width="600"/>
 </p>
+
+### Wireframes and Interaction Flow Diagrams
+This section introduces the wireframes of our prototpe and the interaction flow diagrams of our products.
+* **Little Planet Wireframe**
+<p align = "center">
+<img src="/Report%20Materials/UX%20Design/UX%20images/Wireframe1.png" alt="wireframe1" width="600"/>
+<img src="/Report%20Materials/UX%20Design/UX%20images/wireframe2.png" alt="wireframe2" width="600"/>
+</p> 
+
+* **Little Planet Interaction Flow Diagram**
 
 ## Users and Stakeholders
 We always prioritized users throughout our UX design process. There are two rounds of user research we made in total. 
@@ -73,12 +83,14 @@ Right after we created our prototype, we asked our friends and families again to
 <img src="/Report%20Materials/user%20feedback/Q7.png" alt="Q7" width="600"/>
 <img src="/Report%20Materials/user%20feedback/Q8.png" alt="Q8" width="600"/>
 </p>
+
 Through this second round of user research, we confirmed three things:
-  * Target Users: our initial assumption towards target users are accurate. Nearly 90% participants have experience of failing to sticking to plans and are in     need of progress-tracking/ habit-forming tools. All participants expressed willingness to use Little Planet after we release the complete product.
-  * Nice Features & User Pain Points: existing progress-tracking/habit-forming applications are generally good at progress visualization but problems like hard     to use, lack of gamification or support for cross-platform accessibility are main pain points users have while using the products. In order to design a         product that users enjoy to use, we shoud avoid pain points users mentioned and take features users valued into consideration, like progress visualization.
-  * Suggestions & Takeaways: as it can be seen from the evluation summary, there is still space for Little Planets to make improvements. 2 participants gave    us 4 on user experience of Little Planet(Q4), and that was because the prototype UI looked too simple and they were hoping to see more fun elements on the interface. Considering all the problems users pointed out, our next steps will be: 
-    * add more colorful and fun elements to UI, but keep the interface free from advertisements.
-    * increase user enjoyment through adding more fun elements, like upgrading CCG to TCG and add more collections of cards with different themes. 
+
+  * **Target Users:** our initial assumption towards target users are accurate. Nearly 90% participants have experience of failing to sticking to plans and are in     need of progress-tracking/ habit-forming tools. All participants expressed willingness to use Little Planet after we release the complete product.
+  * **Nice Features & User Pain Points:** existing progress-tracking/habit-forming applications are generally good at progress visualization but problems like hard     to use, lack of gamification or support for cross-platform accessibility are main pain points users have while using the products. In order to design a         product that users enjoy to use, we shoud avoid user pain points and value features users valued, like progress visualization.
+  * **Suggestions & Takeaways:** as it can be seen from the evluation summary, there is still space for Little Planets to make improvements. Two participants gave us scores of 4 on user experience of Little Planet(Q4), and that was because the prototype UI looked too simple and they were hoping to see more fun elements on the interface. Considering all the problems users pointed out, our next steps will be: 
+    * adding more colorful and fun elements to UI, but keeping the interface free from advertisements.
+    * increasing user enjoyment through adding more fun elements, like upgrading CCG to TCG and add more collections of cards with different themes. 
  
 
 
