@@ -13,7 +13,7 @@ public class Goal {
     private String description;
     private Date  startTime;
     private Date endTime;
-    private Integer status; //0初创 1进行中2结束
+    private Integer status; //0 start 1 ongoing 2 end
     private Integer totalTimes;
     private Integer nowTimes;
 }
