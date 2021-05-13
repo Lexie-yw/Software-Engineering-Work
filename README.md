@@ -1,5 +1,5 @@
 ﻿# Little Planet
-Little Planet is a habbit forming app, helping you track your progress and visualize your achievement through a collecting card game (CCG). 
+Little Planet is a habit forming app, helping you track your progress and visualize your achievement through a collecting card game (CCG). 
 Time to develop your perseverance and build your own planet!
 ## Team Member (Group19)
 - Hao Yang (nt20519@bristol.ac.uk)
@@ -38,7 +38,7 @@ This section comprises of the following segments:
 * Ideation and Early prototyping 
 * Identification and Undestanding of Users and Stakeholders
 * UX Approach - design methods
-* Final revisions - wireframes and interaction flow diagrams for final key subsystems
+* Wireframes and interaction flow diagrams for final key subsystems
 
 ## [Sprints & Project Management](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Sprints%20%26%20Project%20Management.md)
 * Group working method
