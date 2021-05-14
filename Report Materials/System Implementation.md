@@ -118,6 +118,9 @@ In this project, we used the front and back end separation method. The front end
 &nbsp;
 
 ## **Front end**
+
+&nbsp;
+
 There are a few features we confirmed with Little Planet after early UX process, which we used to guide our frontend development:
 
   * A Single Page Application
@@ -143,6 +146,10 @@ Based on this criteria, we chose Angular as our frontend frame as it has the fol
 
 Below are detailed explanation on our frontend system implementation.
 
+
+&nbsp;
+
+&nbsp;
 
 ## **Middle tier**
 
