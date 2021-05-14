@@ -19,7 +19,7 @@
 ## Design evaluation
 We first designed a prototype of the product based on its functionality. Each group member drew a portion of the product prototype after the initial imagination. That was just a preliminary idea, and we quickly took the following approach to evaluate and improve the design.
 
-###Prototype feedback
+### Prototype feedback
 After we finished prototyping our product, we showed our design to friends and family and asked them to suggest improvements. For example, there are some button position setting habits and the position of the navigation bar were improved in this step. We considered that the different positions of the buttons that users clicked during goal setting and goal completion might affect whether they could complete the goals easily, and changed the positions of some buttons, including functional improvements. For example, we changed the pause goal to abandon goal, because if users see that they have a pause goal, it is likely to affect their confidence to complete the next goal, so we simply let those goals users no longer want to complete disappear.
 
 ### Questionnaire
