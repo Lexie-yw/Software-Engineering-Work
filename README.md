@@ -6,14 +6,15 @@
 Little Planet is a habit forming app, helping you track your progress and visualize your achievement through a collecting card game (CCG). 
 Time to develop your perseverance and build your own planet!
 ## Team Member (Group19)
-
+Meet the Little Planet team! We are all coders but with different specialization!
 |Xiaozhou Song| Yiwen Wang|Hao Yang|Yingjie Ma|Ning Wang|
 |:--:|:--:|:--:|:--:|:--:|
-|Full Stack, Organizaer|Frontend, Designer|Database, Researcher|Backend, Researcher|Backend, Researcher|
+|Frontend, Organizer|Frontend, Designer|Database, Data Analyst|Backend, Researcher|Backend, Researcher|
 |jo20040@bristol.ac.uk|li20712@bristol.ac.uk|nt20519@bristol.ac.uk|tc20761@bristol.ac.uk|eo20321@bristol.ac.uk|
 
+<p align = "center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/teams%20role/table.PNG?raw=true" alt="Magic the gathering" width="600"/>
 
-Name / photo / role for each team member.
 ## [Introduction](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction/Introduction.md)
 This section comprises of the following segments:
 * Abstract
