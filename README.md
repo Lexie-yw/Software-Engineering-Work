@@ -29,11 +29,11 @@ This section comprises of the following segments:
 
 ## [System Implementation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/System%20Implementation.md)
 * Stack architecture and system design 
-* Front End 
-* Middle Tier 
-* Back End 
+* Front end 
+* Middle tier 
+* Back end 
 * Additional elements and components
-* Continuous Integration
+* Continuous integration
 
 
 
@@ -54,12 +54,12 @@ This section comprises of the following segments:
 ## [Evaluation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Evaluation.md)  
 
 * Unit testing / Functional testing
-* Back end test
+* Back end testing
 * User acceptance testing
 ## [Conclusion](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Conclusion.md)  
 
 * Reflect on the working practices
 * Reflective discussion of the success of the project
 * How coronavirus has affected our project 
-* Discussion of Social and Ethical implications
+* Discussion of social and ethical implications
 * Discussion of future work
