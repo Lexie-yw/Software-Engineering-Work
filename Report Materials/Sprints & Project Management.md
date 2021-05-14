@@ -184,7 +184,7 @@ And try to assemble the different parts of our program, and conducted more tests
 
 see more details in [evaluation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Evaluation.md).
 
-**Sprint 5. Bringing Things Together/More test**(5.7-)  
+**Sprint 5. Documentation**(5.7-)  
 At this stage, we summarized our work content, and planned the next work based on feedback and new ideas. The goal of this stage is to complete the document.
 
 
