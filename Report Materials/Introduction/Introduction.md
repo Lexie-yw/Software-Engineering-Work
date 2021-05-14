@@ -60,3 +60,7 @@
 * Raise awareness of scientific habit forming among our user group, help users to become self-decipline.
 
 ## System demo
+&emsp;&emsp;[Click](https://www.youtube.com/watch?v=K8WGAo7I2xU)  to watch a short video for our system demo on youtube:
+<p align="center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/raw/main/Report%20Materials/UX%20Design/UX%20images/logo.gif" width = 50%>
+</p>
