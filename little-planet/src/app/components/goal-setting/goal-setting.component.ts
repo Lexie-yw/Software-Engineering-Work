@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-goal-setting',
@@ -12,13 +14,13 @@ export class GoalSettingComponent implements OnInit {
   // public startDay: any = new Date();
 
   public goal:any={
-      goal_name:null,
-      clicks_num_needed:null,
+      goalName:null,
+      totalTimes:null,
       description:null
     };
 
 
-  constructor(public router:Router) {
+  constructor(public router:Router,public http:HttpClient) {
     // console.log(this.startDay);
   }
 
@@ -27,13 +29,18 @@ export class GoalSettingComponent implements OnInit {
   }
 
   refresh(){
-    this.goal.goal_name=null;
-    this.goal.clicks_num_needed=null;
+    this.goal.goalName=null;
+    this.goal.totalTimes=null;
     this.goal.description=null;
   }
 
   confirm() {
-    alert('goal submitted');
+    const httpOptions = { headers: new HttpHeaders({'ContentType':'application/json'})};
+    var api = 'http://localhost:8081/goal/add';
+    this.http.post(api,{"userId":"","goalName":"test1","description":"test","startTime":"2020-04-27","endTime":"2020-04-27"},httpOptions).
+    subscribe((response)=>{
+      console.log(response);
+    })
   }
 
   // doSubmit() {

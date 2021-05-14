@@ -34,8 +34,8 @@ export class GoalContentComponent implements OnInit {
     }
   ];
 
-  click_on(){
-    alert('click on successfully');
+  check(){
+    alert('check successfully');
   }
 
   suspend() {

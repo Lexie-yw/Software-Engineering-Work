@@ -28,7 +28,12 @@ export class RegistrationComponent implements OnInit {
   }
 
   login() {
-    alert('You choose to login');
+    const httpOptions = { headers: new HttpHeaders({'ContentType':'application/json'})};
+    var api = 'http://localhost:8081/user/login';
+    this.http.post(api,this.list,httpOptions).
+    subscribe((response)=>{
+      console.log(response);
+    })
   }
 
   create_account() {
