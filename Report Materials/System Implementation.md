@@ -144,13 +144,16 @@ The framework uses a specific way to configure, eliminating the need for develop
 
 &nbsp;
 
+
 ![image](https://user-images.githubusercontent.com/73413798/117576452-aaee2f80-b118-11eb-86a5-fb9da6202d4d.png)  
 
+ 
 &nbsp;
 
 At the same time, SpringBoot, as a server-side framework, integrates Tomcat container in spring-boot-starter-web. We just need to run it to provide services.  
 
 &nbsp;
+
 
 ![image](https://user-images.githubusercontent.com/73413798/117576474-be999600-b118-11eb-8fa9-6d5f4cce6ab1.png)  
 
@@ -160,7 +163,9 @@ The background adopts MVC hierarchical management method. Under the com.work pac
 
 &nbsp;
 
+
 ![image](https://user-images.githubusercontent.com/73413798/117577115-0e795c80-b11b-11eb-9dd5-de4c961ad8d1.png)  
+
  
  &nbsp;
  
@@ -239,20 +244,46 @@ It is characterized by high performance, easy to deploy, easy to use, and easy t
 * The file storage format is BSON (an extension of JSON).
 * Accessible via the network.  
 
-Here is our ER diagram for database building, We use 3 table to store our data, Including User_data table to store our user's account(u_id) and password, goal table to store all goals created by our users, whether it's achieved or not(if achieved, attribute is_achieved will be updated to 1, if user give up their goal, we won't delete this document but update attribute is_deleted from 0 to 1), and an already created table reward to store all our reward pictures' url and owner of a certain picture.    
+
+&nbsp;
+
+
+Here is our ER diagram for database building, We use 3 table to store our data, Including User_data table to store our user's account(u_id) and password, goal table to store all goals created by our users, whether it's achieved or not(if achieved, attribute is_achieved will be updated to 1, if user give up their goal, we won't delete this document but update attribute is_deleted from 0 to 1), and an already created table reward to store all our reward pictures' url and owner of a certain picture.  
+
+&nbsp;
+
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73413798/117675038-cae82680-b1de-11eb-8ddd-7c0001058be6.png" width = 50%>
 </p>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73413798/117674564-590fdd00-b1de-11eb-8f6d-b2a91cd5103f.png" width = 50%>
 </p>
-We use a NoSQL visualization tool "NoSQL Manager for MongoDB" to manage our data. reward table as shown below:
+
+
+&nbsp;
+
+
+We use a NoSQL visualization tool "NoSQL Manager for MongoDB" to manage our data. reward table as shown below:  
+
+&nbsp;
+
+
+
 <p align="center">
 <img src="https://github.com/Blind4life/trash/blob/main/%7DXZ14RHZ_L2L%25GY8B~49KHN.png?raw=true" width = 85%>
 </p>  
 
+
+&nbsp;
+
    Or for future expansion, we can also store these data at cloud by import [script](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/database/planetdb.txt).  
-A manual created goal table for test look like this:
+A manual created goal table for test look like this:  
+
+
+&nbsp;
+
+
 <p align="center">
 <img src="https://github.com/Blind4life/trash/blob/main/%5DB(HKH1R)F~MOC32AG7%7DV%7B6.png?raw=true" width = 85%>
 </p>
@@ -261,7 +292,7 @@ A manual created goal table for test look like this:
 &nbsp;
 
 The home directory is divided into three packages: one for users, one for goals, and one for reward images.
-We save the reward pictures into the database, and the user collects the pictures by completing the goal. The corresponding relationship is shown in the figure.  
+We save the reward pictures into the database, and the user collects the pictures by completing the goal.   
 
 
 
