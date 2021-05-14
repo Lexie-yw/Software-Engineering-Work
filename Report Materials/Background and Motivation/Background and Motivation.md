@@ -37,7 +37,7 @@ It will record users' punching times after they set their goals, and users can a
 ### Magic The Gathering
 
 <p align = "center">
-<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20images/Black_lotus.jpg?raw=true" alt="Magic the gathering" width="600"/>
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20images/Black_lotus.jpg?raw=true" alt="Magic the gathering" width=30% />
 </p>
 
 
