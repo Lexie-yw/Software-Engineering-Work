@@ -100,13 +100,9 @@ Because of COVID-19, we couldn't meet and communicate offline, so most of our wo
 ![image](https://user-images.githubusercontent.com/73413798/117953650-d0fa1680-b348-11eb-87af-f806be7c23bc.png)
 
   
-  | Name              | Photo          |     Team role  |
-    | --------   | -----:   | :----: |
-    | Wang Ning           | <p align = "center"><img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/teams%20role/wangning.jpg?raw=true" alt="Magic the gathering" width="50"/></p> |   Responsible for back-end development, maintaining communication with the team and setting up HTTP requests. Enabling smooth data transfer by connecting the front-end to the database. Implementing successful transfer of JSON files between the front-end, back-end and database. Assist the database department with the functionality of the database and its connection to the back-end.|
-    | Yingjie Ma        | <p align = "center"><img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/teams%20role/yingjie.jpg?raw=true" alt="Magic the gathering" width="50"/></p>      |   Work mainly focused on the back-end, especially the database and integration with the back-end and data maintenance. Actively working with other department members to ensure stable data transfer between departments. Also keeps the team updated on existing issues and assists with research when necessary.|
-    | Hao Yang        | <p align = "center"><img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/teams%20role/yanghao.png?raw=true" alt="Magic the gathering" width="50"/></p>        |   Responsible for the planning of the database, collecting award images and fixing them. Create the database as well as secure the connection between the database and the back-end. As well as assisting in the smooth running of the project and helping other students in the group to complete their tasks.   |
-    | Yiwen Wang        | <p align = "center"><img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20images/Black_lotus.jpg?raw=true" alt="Magic the gathering" width="20"/></p>      |   Propose the main idea of the project. Responsible for UX design, front-end framework building and CSS design. Convene regular meetings with the team to advance the project progress.|
-    | Xiaozhou Song        | <p align = "center"><img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/teams%20role/xiaozhou.jpg?raw=true" alt="Magic the gathering" width="50"/></p>        |   Responsible for front-end function implementation, planning database structure, testing front-end functions, planning front-end and back-end interaction logic. Organize meetings with team members to drive project progress.|
+<p align = "center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/teams%20role/table.PNG?raw=true" alt="Magic the gathering" width="600"/>
+</p>
 
 
 &nbsp;
