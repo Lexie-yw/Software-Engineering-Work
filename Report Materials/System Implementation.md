@@ -118,17 +118,33 @@ In this project, we used the front and back end separation method. The front end
 &nbsp;
 
 ## **Front end**
+There are a few features we confirmed with Little Planet after early UX process, which we used to guide our frontend development:
 
+  * A Single Page Application
+  * Simple in UI style & Streamlined user experience
+  * Easiness to build, maintain and upgrade
+
+Based on this criteria, we chose Angular as our frontend frame as it has the following advantages:
+
+  * Stability:
+    Angular is an open source framework built with Typescripts. It's currently maintained by google and individual developers. With code reviewed by thousands     of developers,  bugs in Angular should be identified very quickly and the overall software quality of Angular should be in a relatively high level. Therefore, Angular is able to provide long term support for Little Planet.
+  * Easy to Use & Maintain:
+    * Component-based architecture:
+      * Organized working flow:
+        Angular organizes codes in small chunks, i.e. components. This would allow us to implement each elements (Home, Progress Tracker, Login, etc.) of Little Planet in an organized way and provide easiness for us to link the elements referencing the Interaction flow diagrams we created during UX design. 
+      * Easiness in testing & debugging:
+        Since features of Little Planet can be developed separately as  components, it would be easy for us to conduct tests and detect which part goes wrong.
+      * Efficiency in programming:
+        Codes grouped into components can prevent us from coding repetitively and reuse available resources, which can ensure a smooth development process.
+    * Simplified MVC pattern MVVM: 
+      * Angular uses a simplified Model-View-Control (MVC) pattern which is similar to Model-View-View-Model. Such pattern enable Angular achieve two-way data binding between View and ViewModel and streamlined the coding flow developers as there is no need to write getters and setters. With  such feature, using angular can help us speed up our working process while maintaining the quality of our scripts.
+  * Strong Community Support:
+      As a mature and popular framework, there are tons of tutorials on Youtube and websites, like https://angular.io/start. Supports could also be found through forums like stackoverflow(https://stackoverflow.com/).
+
+Below are detailed explanation on our frontend system implementation.
 
 
 ## **Middle tier**
-
-&nbsp;
-&nbsp;
-
- 
-
-&nbsp;
 
 SpringBoot is a new framework from the Pivotal team designed to simplify the initial setup and development process for new Spring applications. 
 * Using the Spring project boot page we can build a project in a few seconds
