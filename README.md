@@ -66,4 +66,4 @@ This section comprises of the following segments:
 
 ##  How to get start
 
-Cd to Software-Engineering-Work/little-planet/ and input ng serve –-open, you can see front pages; Software-Engineering-Work/backend/src/main/java/com/work/AppStart.java is the entrance for back end.( you need to start mongo before)
+Cd to Software-Engineering-Work/little-planet/ and input ng serve –-open, you can see front pages; Software-Engineering-Work/backend/src/main/java/com/work/AppStart.java is the entrance for back end.( you need to start mongo before)Then open browser such as Chrome, and type http://localhost:8081, and you can enter our website now.
