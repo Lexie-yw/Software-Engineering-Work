@@ -64,5 +64,6 @@ This section comprises of the following segments:
 * Discussion of social and ethical implications
 * Discussion of future work
 
-##How to get start
+##  How to get start
+
 Cd to Software-Engineering-Work/little-planet/ and input ng serve –-open, you can see front pages; Software-Engineering-Work/backend/src/main/java/com/work/AppStart.java is the entrance for back end.( you need to start mongo before)
