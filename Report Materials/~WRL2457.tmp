@@ -3,9 +3,6 @@
 
 &nbsp;
 
-[**Design evaluation**](#design-evaluation)
-
-
 [**Unit testing and Functional testing**](#unit-testing-and-functional-testing)  
   * [**Front end testing**](#Front-end-testing)
   * [**Back end testing**](#back-end-testing)  
@@ -16,19 +13,6 @@
 
 &nbsp;
 
-## Design evaluation
-We first designed a prototype of the product based on its functionality. Each group member drew a portion of the product prototype after the initial imagination. That was just a preliminary idea, and we quickly took the following approach to evaluate and improve the design.
-
-###Prototype feedback
-After we finished prototyping our product, we showed our design to friends and family and asked them to suggest improvements. For example, there are some button position setting habits and the position of the navigation bar were improved in this step. We considered that the different positions of the buttons that users clicked during goal setting and goal completion might affect whether they could complete the goals easily, and changed the positions of some buttons, including functional improvements. For example, we changed the pause goal to abandon goal, because if users see that they have a pause goal, it is likely to affect their confidence to complete the next goal, so we simply let those goals users no longer want to complete disappear.
-
-### Questionnaire
-We posted a questionnaire that included questions asking if the person filling it had experience setting goals but not accomplishing them, if they had used apps that helped accomplish them and what they thought were their benefits. We then asked the respondents to fill in any inconveniences they had encountered while using other similar products. The questionnaire was set up to help us establish our target users and set the tone for the rest of the product design. It also helped us discover features that we hadn't thought of before to add to the prototyping.
-
-link is here (https://docs.google.com/forms/d/e/1FAIpQLScY10gd5m1Xo-fxFQ2uITVq4KF75BZSPWpJlo2t_HcHHjfmwg/viewform?usp=sf_link)
-
-### Interviews and try out
-It is essential to interview users or listen to their experiences.There are many issues that were not considered during the design process, such as the lack of a logout function, that were revealed during the process. We have improved a lot from them. Existing progress-tracking/habit-forming applications are generally good at progress visualization but problems like hard to use, lack of gamification or support for cross-platform accessibility are main pain points users have while using the products. In order to design a product that users enjoy to use, we shoud avoid user pain points and value features users valued, like progress visualization.
 
 
 ## Unit testing and functional testing
@@ -97,6 +81,14 @@ Navigation bar
 
 <p align = "center">
 <img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/test/login_success.PNG?raw=true" alt="login_success" width="600"/>
+</p>
+
+<p align = "center">
+<img src=" https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/test/user_name_exists.PNG?raw=true" alt="user_name_exists" width="600"/>
+</p>
+
+<p align = "center">
+<img src=" https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/test/user_not_exists.PNG?raw=true" alt="user_not_exists" width="600"/>
 </p>
 
 
