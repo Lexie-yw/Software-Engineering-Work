@@ -114,6 +114,11 @@ Our development can be divided into five stages, basically follows the waterfall
 around us, sought advice from them, and do some improvement to our project. Figure below shows the project development flow.
 Because of the cov-19 epidemic, we rarely meet offline, we use online apps such as teams and wechat to communicate.
 
+<p align="center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/image.png?raw=true" width = 100%>
+</p>
+
+
 **Sprint 1. Brain Storm/Forming prototype**(3.15-4.1)  
 At this sprint stage, we analyzed some of our current problems, Several creative models were proposed, such as sports recording app. But finally, we found that due to 
 the cov-19 epidemic, the pace of our lives has been disrupted, so we decided to develop a app that can help people form habits which can restore people's lives to normal.
