@@ -65,19 +65,14 @@ The app's reward theme can be set to your choice, and the prototype defaults to 
 
 
 
-## Reference List
-【1】Chen P., Kuo R., Chang M., Heh JS. (2009) Designing a Trading Card Game as Educational Reward System to Improve Students’ Learning Motivations. In: Pan Z., Cheok A.D., Müller W., Chang M. (eds) Transactions on Edutainment III.
+## Reference List 
 
-【2】Chen, P., Kuo, R., Chang, M. et al. The effectiveness of using in-game cards as reward. RPTEL 12, 15 (2017). https://doi.org/10.1186/s41039-017-0054-8
-
-【3】Bisz, J. (2009). The birth of a community, the death of the win: Player production of the Middle-earth Collectible Card Game. Transformative Works and Cultures, 2. Retrieved from http://journal.transformativeworks.org/index.php/twc/article/view/90/99
-
-【4】Malone, T.W. (1980). What makes things fun to learn? Heuristics for designing instructional computer games, Proceedings of the 3rd ACM SIGSMALL symposium and the first SIGPC symposium on Small systems, p.162-169, September 18-19, 1980, Palo Alto, California, United States
-
-【5】Lenarcic, J & Mackay-Scollay, J (2005). Trading Card Games as a social learning tool. Australian Journal of emerging Technologies, 3(2), 64-76.
-
-【6】Steinman, R. A., & Blastos, M. T. (2002). A trading-card game teaching about host defence. Medical Education, 36, 1201-1208.
-
-【7】Ito, M. (2005). Technologies of the childhood imagination: Yugioh, media mixes, and everyday cultural production. In Joe Karaganis and Natalie Jeremijenko (Eds), Structures of participation in digital culture. Duke University Press.
+> 1. Chen P., Kuo R., Chang M., Heh JS. (2009) Designing a Trading Card Game as Educational Reward System to Improve Students’ Learning Motivations. In: Pan Z., Cheok A.D., Müller W., Chang M. (eds) Transactions on Edutainment III.
+> 2. Chen, P., Kuo, R., Chang, M. et al. The effectiveness of using in-game cards as reward. RPTEL 12, 15 (2017). https://doi.org/10.1186/s41039-017-0054-8
+> 3. Bisz, J. (2009). The birth of a community, the death of the win: Player production of the Middle-earth Collectible Card Game. Transformative Works and Cultures, 2. Retrieved from http://journal.transformativeworks.org/index.php/twc/article/view/90/99
+> 4. Malone, T.W. (1980). What makes things fun to learn? Heuristics for designing instructional computer games, Proceedings of the 3rd ACM SIGSMALL symposium and the first SIGPC symposium on Small systems, p.162-169, September 18-19, 1980, Palo Alto, California, United States
+> 5. Lenarcic, J & Mackay-Scollay, J (2005). Trading Card Games as a social learning tool. Australian Journal of emerging Technologies, 3(2), 64-76.
+> 6. Steinman, R. A., & Blastos, M. T. (2002). A trading-card game teaching about host defence. Medical Education, 36, 1201-1208.
+> 7. Ito, M. (2005). Technologies of the childhood imagination: Yugioh, media mixes, and everyday cultural production. In Joe Karaganis and Natalie Jeremijenko (Eds), Structures of participation in digital culture. Duke University Press.
 
 
