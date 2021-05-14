@@ -140,11 +140,20 @@ Based on this criteria, we chose Angular as our frontend frame as it has the fol
       * Efficiency in programming:
         Codes grouped into components can prevent us from coding repetitively and reuse available resources, which can ensure a smooth development process.
     * Simplified MVC pattern MVVM: 
-      * Angular uses a simplified Model-View-Control (MVC) pattern which is similar to Model-View-View-Model. Such pattern enable Angular achieve two-way data binding between View and ViewModel and streamlined the coding flow developers as there is no need to write getters and setters. With  such feature, using angular can help us speed up our working process while maintaining the quality of our scripts.
+      Angular uses a simplified Model-View-Control (MVC) pattern which is similar to Model-View-View-Model. Such pattern enable Angular achieve two-way data binding between View and ViewModel and streamlined the coding flow developers as there is no need to write getters and setters. With  such feature, using angular can help us speed up our working process while maintaining the quality of our scripts.
   * Strong Community Support:
       As a mature and popular framework, there are tons of tutorials on Youtube and websites, like https://angular.io/start. Supports could also be found through forums like stackoverflow(https://stackoverflow.com/).
 
-Below are detailed explanation on our frontend system implementation.
+Below are detailed explanations on our frontend system implementation:
+We took advantages of Angular's component-based architecture and managed to develop pages of our website application in an organized order.
+<p align = "center">
+<img src="/Report%20Materials/System%20Implementation/FrontEnd.png" alt="App Components" width="600"/>
+</p>
+
+With MVVC-like feature of Angular, we could easy track changes on the screen after we updated source codes:
+<p align = "center">
+<img src="/Report%20Materials/System%20Implementation/MVVM.png" alt="Changes Tracking" width="600"/>
+</p>
 
 
 &nbsp;
