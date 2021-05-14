@@ -115,7 +115,7 @@ around us, sought advice from them, and do some improvement to our project. Figu
 Because of the cov-19 epidemic, we rarely meet offline, we use online apps such as teams and wechat to communicate.
 
 <p align="center">
-<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/image.png?raw=true" width = 100%>
+<img src="https://github.com/Blind4life/trash/blob/main/1JSOVV%60MN5F@QP9%7DTMK3U@4.png?raw=true" width = 90%>
 </p>
 
 
