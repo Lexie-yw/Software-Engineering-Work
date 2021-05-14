@@ -1,11 +1,11 @@
-# **Evaluation**
+﻿# **Evaluation**
 
 
 &nbsp;
 
 [**Unit testing and Functional testing**](#unit-testing-and-functional-testing)  
-
-[**Back end testing**](#back-end-testing)  
+  * [**Front end testing**](#Front-end-testing)
+  * [**Back end testing**](#back-end-testing)  
 
 [**User acceptance testing**](#user-acceptance-testing)  
 
@@ -16,6 +16,75 @@
 
 
 ## Unit testing and functional testing
+
+### Front end testing
+In the front-end testing, we divided into two parts. First, we test whether the front-end can load the page independently and the successful rendering of the page, as well as the interaction between the front-end and back-end.
+
+Home Page
+• Home page is set as default page when using the app, so it should be loaded automatically
+• The page should load an entity:‘total goals achieved’
+• Navigation bar should work
+Login Page
+• When clicking the ‘create a new account’button, user info should be set correctly in registration.component.ts
+• When clicking the ‘login’button, user info should be set correctly in registration.component.ts
+• User could tap their information in the correct position
+• Navigation bar should work
+
+Goals Page
+• Three text areas should be loaded successfully, and Hints should be at the correct location.
+• When user tap their goalName, Duration and description, their input should be stored in the goal-setting.component.ts file and the hint should disappear.
+• When user click the ‘cancel’button, their input in this page should be set to null, so that they could tap it again easily.
+• When user click the ‘confirm button’, their input should be sent to the server.
+• Navigation bar should work
+Progress Tracker Page
+• This page should load all goals and their goal_id
+• The Correspondence of goal and id is correct
+• When click the goal, link should router link the user to the goal-content page, and the id should be passed together as a parameter to the new page
+```@test
+<ul>
+   <li *ngFor= "let item of goal_list">
+             <a class="goal-list-item" [routerLink]="['/goal-content/',item.goal_num ]" >{{item.goal_num}}--{{item.goal_name}}</a>      
+   </li>
+</ul>
+```
+• Navigation bar should work
+Progress Content Page
+• The parameter ‘goal_id’is received successfully
+
+• The goalName, Duration and description should be loaded correctly as the goal_id has been passed in this page 
+• When click the ‘check’ button, the entity ‘numbersNow’ should be add one and passed to the backend
+• When click the ‘suspend’ button, the goal should be cancelled and will not appear in the front page later
+• Navigation bar should work
+Rewards Library Page
+• This page should load the card has been rewarded to the user successfully
+• The number of the card should be the same as the number of goals accomplished 
+• The card has been rewarded will not be changed 
+• Navigation bar should work
+Navigation bar
+• The “Home” link should router link the user to the Homepage page.
+• The “Goals” link should router link the user to the Goals setting page.
+• The “Progress Tracker” link should router link the user to the Progress Tracker page.
+• The “Rewards Library” link should router link the user to the Rewards Library page.
+• The “Login” link should router link the user to the Login page.
+
+ User Authentification(login page)
+• When click the ‘create a new account’ button, if the username appears the first time, user should create successfully
+• When click the ‘create a new account’ button, if the username has been registered, user should get an error ‘user exists’
+• When click the ‘login’ button, if the email has not been registered, user should get an error ‘user not exists’
+• When click the ‘login’ button, if the information is correct, the user should login successfully
+• When click the ‘login’ button, if the user’s password is wrong, the user should git an error ‘password is not correct’
+
+<p align = "center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20images/Black_lotus.jpg?raw=true" alt="login_success" width="600"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20images/Black_lotus.jpg?raw=true" alt="user_name_exists" width="600"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20images/Black_lotus.jpg?raw=true" alt="user_not_exists" width="600"/>
+</p>
 
 
 
