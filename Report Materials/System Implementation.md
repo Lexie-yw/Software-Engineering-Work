@@ -121,31 +121,34 @@ In this project, we used the front and back end separation method. The front end
 
 &nbsp;
 
-There are a few features we confirmed with Little Planet after early UX process, which we used to guide our frontend development:
+**There are a few features we confirmed with Little Planet after early UX process, which we used to guide our frontend development:**
 
   * A Single Page Application
   * Simple in UI style & Streamlined user experience
   * Easiness to build, maintain and upgrade
 
-Based on this criteria, we chose Angular as our frontend frame as it has the following advantages:
+**Based on this criteria, we chose Angular as our frontend frame as it has the following advantages:**
 
-  * Stability:
+  * **Stability:**
     Angular is an open source framework built with Typescripts. It's currently maintained by google and individual developers. With code reviewed by thousands     of developers,  bugs in Angular should be identified very quickly and the overall software quality of Angular should be in a relatively high level. Therefore, Angular is able to provide long term support for Little Planet.
-  * Easy to Use & Maintain:
-    * Component-based architecture:
+  * **Easy to Use & Maintain:**
+    * **Component-based architecture:**
       * Organized working flow:
         Angular organizes codes in small chunks, i.e. components. This would allow us to implement each elements (Home, Progress Tracker, Login, etc.) of Little Planet in an organized way and provide easiness for us to link the elements referencing the Interaction flow diagrams we created during UX design. 
       * Easiness in testing & debugging:
         Since features of Little Planet can be developed separately as  components, it would be easy for us to conduct tests and detect which part goes wrong.
       * Efficiency in programming:
         Codes grouped into components can prevent us from coding repetitively and reuse available resources, which can ensure a smooth development process.
-    * Simplified MVC pattern MVVM: 
+    * **Simplified MVC pattern MVVM: **
+      <p align = "center">
+      <img src="/Report%20Materials/System%20Implementation/MVVM%20theory.png" alt="Changes Tracking" width="600"/>
+      </p>
       Angular uses a simplified Model-View-Control (MVC) pattern which is similar to Model-View-View-Model. Such pattern enable Angular achieve two-way data binding between View and ViewModel and streamlined the coding flow developers as there is no need to write getters and setters. With  such feature, using angular can help us speed up our working process while maintaining the quality of our scripts.
-  * Strong Community Support:
+  * **Strong Community Support:**
       As a mature and popular framework, there are tons of tutorials on Youtube and websites, like https://angular.io/start. Supports could also be found through forums like stackoverflow(https://stackoverflow.com/).
 
-Below are detailed explanations on our frontend system implementation:
-We took advantages of Angular's component-based architecture and managed to develop pages of our website application in an organized order.
+**Below are detailed explanations on our frontend system implementation:**
+We took advantages of Angular's component-based architecture and managed to develop pages of our website application in an organized way.
 <p align = "center">
 <img src="/Report%20Materials/System%20Implementation/FrontEnd.png" alt="App Components" width="600"/>
 </p>
@@ -155,7 +158,13 @@ With MVVC-like feature of Angular, we could easy track changes on the screen aft
 <img src="/Report%20Materials/System%20Implementation/MVVM.png" alt="Changes Tracking" width="600"/>
 </p>
 
+**Reference Materials & Picture Source:**
 
+	* https://en.wikipedia.org/wiki/Angular_(web_framework)
+	* https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-angular-development/
+	* https://www.grazitti.com/blog/8-proven-reasons-you-need-angular-for-your-next-development-project/#:~:text=Angular%20helps%20build%20interactive%20and,dependency%20injection%2C%20and%20AJAX%20handling.
+	* https://medium.com/@maaouikimo/why-angular-is-your-best-choice-for-you-next-projects-9d754fb18f91#:~:text=Simplified%20MVC%20Pattern%20MVVM&text=Angular%20does%20not%20ask%20developers,%2DView%2DController)%20one.
+  
 &nbsp;
 
 &nbsp;
