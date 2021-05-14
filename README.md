@@ -17,26 +17,29 @@ Meet the Little Planet team! We are all coders but with different specialization
 
 ## [Introduction](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Introduction/Introduction.md)
 This section comprises of the following segments:
+
 * Abstract
 * Project Objectives.
 * Team Checklist
 * System demo
 
 ## [Background and Motivation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Background%20and%20Motivation/Background%20and%20Motivation.md)
+This section comprises of the following segments:
+
 * Academic research review.
 * Current industry review.
 * Definition of the problem 
 * What we improved
 
 ## [System Implementation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/System%20Implementation.md)
+This section comprises of the following segments:
+
 * Stack architecture and system design 
 * Front end 
 * Middle tier 
 * Back end 
 * Additional elements and components
 * Continuous integration
-
-
 
 ## [UX Design](Report%20Materials/UX%20Design/UX.md) 
 This section comprises of the following segments:
@@ -48,15 +51,20 @@ This section comprises of the following segments:
 * Wireframes and interaction flow diagrams for final key subsystems
 
 ## [Sprints & Project Management](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Sprints%20%26%20Project%20Management.md)
+This section comprises of the following segments:
+
 * Group working method
 * Discussion of team roles 
 * Documentation 
 * Team use of Git
+
 ## [Evaluation](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Evaluation.md)  
+This section comprises of the following segments:
 
 * Unit testing / Functional testing
 * Back end testing
 * User acceptance testing
+
 ## [Conclusion](https://github.com/Lexie-yw/Software-Engineering-Work/blob/main/Report%20Materials/Conclusion.md)  
 
 * Reflect on the working practices
